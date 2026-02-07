@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="EPSO AD5 Digital Skills Test Preparation - Practice for the European Personnel Selection Office Administrator exam">
+    <meta name="keywords" content="EPSO, AD5, Digital Skills, EU careers, test preparation">
+    <title>EPSO AD5 Digital Skills Test Prep</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#003399">
+</head>
+<body>
+    <!-- Header -->
+    <header class="app-header">
+        <div class="container">
+            <h1>🇪🇺 EPSO AD5 Digital Skills Test</h1>
+            <p class="subtitle">Practice for the EU Administrator Competition 2026</p>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container">
+        <!-- Welcome Screen -->
+        <section id="welcome-screen" class="screen active">
+            <div class="welcome-card">
+                <h2>Welcome to Your Digital Skills Test Preparation</h2>
+                <p>Practice for the EPSO AD5 Digital Literacy Test based on the European Digital Competence Framework (DigComp 2.2)</p>
+                
+                <div class="stats-summary" id="user-stats">
+                    <h3>Your Progress</h3>
+                    <div class="stats-grid">
+                        <div class="stat-item">
+                            <span class="stat-value" id="total-tests">0</span>
+                            <span class="stat-label">Tests Completed</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-value" id="avg-score">0%</span>
+                            <span class="stat-label">Average Score</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-value" id="best-score">0/40</span>
+                            <span class="stat-label">Best Score</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mode-selector">
+                    <h3>Choose Your Mode</h3>
+                    
+                    <button class="mode-btn" onclick="startTest('practice')">
+                        <div class="mode-icon">📝</div>
+                        <div class="mode-details">
+                            <h4>Practice Mode</h4>
+                            <p>10 questions • Immediate feedback • Untimed</p>
+                        </div>
+                    </button>
+
+                    <button class="mode-btn" onclick="startTest('mock')">
+                        <div class="mode-icon">⏱️</div>
+                        <div class="mode-details">
+                            <h4>Mock Exam</h4>
+                            <p>40 questions • 30 minutes • Like the real test</p>
+                            <span class="badge-pass">Pass: 20/40</span>
+                        </div>
+                    </button>
+
+                    <button class="mode-btn" onclick="startTest('theme')">
+                        <div class="mode-icon">🎯</div>
+                        <div class="mode-details">
+                            <h4>Theme Focus</h4>
+                            <p>Practice specific DigComp areas</p>
+                        </div>
+                    </button>
+
+                    <button class="mode-btn secondary" onclick="showStatistics()">
+                        <div class="mode-icon">📊</div>
+                        <div class="mode-details">
+                            <h4>View Statistics</h4>
+                            <p>See your performance history</p>
+                        </div>
+                    </button>
+                </div>
+
+                <div class="info-box">
+                    <h4>📚 About the Digital Skills Test</h4>
+                    <ul>
+                        <li><strong>40 questions</strong> covering 5 DigComp areas</li>
+                        <li><strong>30 minutes</strong> to complete</li>
+                        <li><strong>Pass score:</strong> 20/40 (50%)</li>
+                        <li><strong>Counts for 25%</strong> of your final score</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Theme Selection Screen -->
+        <section id="theme-screen" class="screen">
+            <div class="theme-card">
+                <h2>Select DigComp Themes to Practice</h2>
+                <p>Choose one or more digital competence areas</p>
+                
+                <div class="theme-checkboxes">
+                    <label class="theme-option">
+                        <input type="checkbox" value="Information & data literacy" checked>
+                        <div class="theme-content">
+                            <span class="theme-name">Information & data literacy</span>
+                            <span class="theme-count" id="count-info">0 questions</span>
+                        </div>
+                    </label>
+
+                    <label class="theme-option">
+                        <input type="checkbox" value="Communication & collaboration" checked>
+                        <div class="theme-content">
+                            <span class="theme-name">Communication & collaboration</span>
+                            <span class="theme-count" id="count-comm">0 questions</span>
+                        </div>
+                    </label>
+
+                    <label class="theme-option">
+                        <input type="checkbox" value="Digital content creation" checked>
+                        <div class="theme-content">
+                            <span class="theme-name">Digital content creation</span>
+                            <span class="theme-count" id="count-content">0 questions</span>
+                        </div>
+                    </label>
+
+                    <label class="theme-option">
+                        <input type="checkbox" value="Safety" checked>
+                        <div class="theme-content">
+                            <span class="theme-name">Safety</span>
+                            <span class="theme-count" id="count-safety">0 questions</span>
+                        </div>
+                    </label>
+
+                    <label class="theme-option">
+                        <input type="checkbox" value="Problem solving" checked>
+                        <div class="theme-content">
+                            <span class="theme-name">Problem solving</span>
+                            <span class="theme-count" id="count-problem">0 questions</span>
+                        </div>
+                    </label>
+                </div>
+
+                <div class="theme-actions">
+                    <button class="btn-secondary" onclick="showScreen('welcome-screen')">Back</button>
+                    <button class="btn-primary" onclick="startThemeTest()">Start Practice</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Quiz Screen -->
+        <section id="quiz-screen" class="screen">
+            <!-- Timer and Progress -->
+            <div class="quiz-header">
+                <div class="progress-info">
+                    <span id="question-number">Question 1 of 40</span>
+                    <span id="answered-count">Answered: 0/40</span>
+                </div>
+                <div class="timer-container">
+                    <span id="timer" class="timer">30:00</span>
+                </div>
+            </div>
+
+            <!-- Question Navigation Grid -->
+            <div class="question-grid" id="question-grid">
+                <!-- Will be populated by JavaScript -->
+            </div>
+
+            <!-- Question Card -->
+            <div class="question-card">
+                <div class="theme-badge" id="question-theme">Theme</div>
+                <h3 id="question-text">Question will appear here</h3>
+                
+                <div class="options-container" id="options-container">
+                    <!-- Options will be populated by JavaScript -->
+                </div>
+
+                <div class="question-actions">
+                    <button class="btn-flag" id="flag-btn" onclick="toggleFlag()">
+                        <span id="flag-icon">🚩</span> Flag for Review
+                    </button>
+                    
+                    <div class="navigation-buttons">
+                        <button class="btn-secondary" id="prev-btn" onclick="previousQuestion()">
+                            ← Previous
+                        </button>
+                        <button class="btn-primary" id="next-btn" onclick="nextQuestion()">
+                            Next →
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Immediate Feedback (Practice Mode Only) -->
+                <div class="feedback-container" id="feedback" style="display: none;">
+                    <!-- Feedback will be shown here in practice mode -->
+                </div>
+            </div>
+
+            <!-- Submit Test Button -->
+            <div class="submit-container">
+                <button class="btn-submit" onclick="confirmSubmit()">Submit Test</button>
+            </div>
+        </section>
+
+        <!-- Results Screen -->
+        <section id="results-screen" class="screen">
+            <div class="results-card">
+                <h2>Test Complete!</h2>
+                
+                <div class="score-display">
+                    <div class="big-score" id="final-score">0/40</div>
+                    <div class="score-percentage" id="score-percentage">0%</div>
+                    <div class="pass-status" id="pass-status">Status</div>
+                </div>
+
+                <div class="time-info">
+                    <span id="time-taken">Time: --:--</span>
+                </div>
+
+                <div class="theme-breakdown">
+                    <h3>Performance by Theme</h3>
+                    <div id="theme-results">
+                        <!-- Will be populated by JavaScript -->
+                    </div>
+                </div>
+
+                <div class="results-actions">
+                    <button class="btn-primary" onclick="reviewIncorrect()">
+                        Review Incorrect Answers
+                    </button>
+                    <button class="btn-secondary" onclick="exportResults()">
+                        📥 Export Results
+                    </button>
+                    <button class="btn-secondary" onclick="showScreen('welcome-screen')">
+                        New Test
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Statistics Screen -->
+        <section id="statistics-screen" class="screen">
+            <div class="stats-card">
+                <h2>Your Performance Statistics</h2>
+                
+                <div class="stats-overview">
+                    <div class="stat-box">
+                        <h3 id="stats-total-tests">0</h3>
+                        <p>Total Tests</p>
+                    </div>
+                    <div class="stat-box">
+                        <h3 id="stats-avg-score">0%</h3>
+                        <p>Average Score</p>
+                    </div>
+                    <div class="stat-box">
+                        <h3 id="stats-best-score">0/40</h3>
+                        <p>Best Score</p>
+                    </div>
+                    <div class="stat-box">
+                        <h3 id="stats-pass-rate">0%</h3>
+                        <p>Pass Rate</p>
+                    </div>
+                </div>
+
+                <div class="chart-container">
+                    <h3>Score History</h3>
+                    <canvas id="score-chart"></canvas>
+                </div>
+
+                <div class="theme-stats">
+                    <h3>Theme Performance</h3>
+                    <div id="theme-stats-content">
+                        <!-- Will be populated by JavaScript -->
+                    </div>
+                </div>
+
+                <div class="stats-actions">
+                    <button class="btn-secondary" onclick="clearStatistics()">
+                        Clear All Data
+                    </button>
+                    <button class="btn-primary" onclick="showScreen('welcome-screen')">
+                        Back to Home
+                    </button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="app-footer">
+        <div class="container">
+            <p>EPSO AD5 Digital Skills Preparation Tool</p>
+            <p>Based on DigComp 2.2 • Questions randomized for practice</p>
+            <div class="footer-links">
+                <a href="https://eu-careers.europa.eu" target="_blank">Official EPSO Website</a>
+                <span>•</span>
+                <a href="https://op.europa.eu/en/publication-detail/-/publication/50c53c01-abeb-11ec-83e1-01aa75ed71a1" target="_blank">DigComp 2.2</a>
+                <span>•</span>
+                <button onclick="toggleDarkMode()" class="link-button">🌙 Dark Mode</button>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Modals -->
+    <div id="submit-modal" class="modal">
+        <div class="modal-content">
+            <h3>Submit Test?</h3>
+            <p>You have answered <span id="modal-answered">0</span> of <span id="modal-total">40</span> questions.</p>
+            <p id="modal-unanswered" style="display: none;">
+                <strong>Unanswered questions will be marked as incorrect.</strong>
+            </p>
+            <div class="modal-actions">
+                <button class="btn-secondary" onclick="closeModal()">Cancel</button>
+                <button class="btn-primary" onclick="submitTest()">Submit</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Loading Indicator -->
+    <div id="loading" class="loading" style="display: none;">
+        <div class="spinner"></div>
+        <p>Loading questions...</p>
+    </div>
+
+    <!-- Scripts -->
+    <script src="app.js"></script>
+    
+    <!-- Chart.js for statistics (CDN) -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+    
+    <!-- Keyboard shortcuts helper -->
+    <div id="shortcuts-hint" class="shortcuts-hint">
+        <p><strong>Keyboard Shortcuts:</strong></p>
+        <p>1-4: Select answer • N: Next • P: Previous • F: Flag • ? : Toggle hints</p>
+    </div>
+</body>
+</html>

@@ -1,0 +1,602 @@
+[
+  {
+    "theme": "Information & data literacy",
+    "q": "What does 'HTTPS' in a web address indicate?",
+    "opts": [
+      "The website has high performance",
+      "The connection is encrypted and secure",
+      "The site is hosted in Europe",
+      "The page loads faster"
+    ],
+    "a": 1,
+    "exp": "HTTPS indicates secure, encrypted communication."
+  },
+  {
+    "theme": "Digital content creation",
+    "q": "Which file extension is used for Microsoft Excel spreadsheets?",
+    "opts": [
+      ".docx",
+      ".pptx",
+      ".xlsx",
+      ".pdf"
+    ],
+    "a": 2,
+    "exp": ".xlsx is the Excel file format."
+  },
+  {
+    "theme": "Digital content creation",
+    "q": "What file extension is NOT an image file?",
+    "opts": [
+      "PNG",
+      "BMP",
+      "PST",
+      "JPEG"
+    ],
+    "a": 2,
+    "exp": "PST is an Outlook data file, not an image format."
+  },
+  {
+    "theme": "Information & data literacy",
+    "q": "What do you call software needed to access the internet?",
+    "opts": [
+      "A modem",
+      "An explorer",
+      "A browser",
+      "A communicator"
+    ],
+    "a": 2,
+    "exp": "A web browser allows you to access websites."
+  },
+  {
+    "theme": "Communication & collaboration",
+    "q": "How can I automatically move all emails from a certain address to a specific folder?",
+    "opts": [
+      "Using a rule",
+      "Using an alert",
+      "Using a quick step",
+      "Using HTTP protocol"
+    ],
+    "a": 0,
+    "exp": "Email rules automatically organize messages."
+  },
+  {
+    "theme": "Safety",
+    "q": "What is the purpose of a firewall?",
+    "opts": [
+      "To block ads on web pages",
+      "To verify downloads via scan",
+      "To delete viruses",
+      "To protect from unwanted communication"
+    ],
+    "a": 3,
+    "exp": "Firewalls control network traffic."
+  },
+  {
+    "theme": "Problem solving",
+    "q": "Which technologies enable smartphone internet connection on the street?",
+    "opts": [
+      "Bluetooth Low Energy",
+      "2g, 3g, 4g, 5g",
+      "Cloud computing",
+      "P2P (Peer-to-peer)"
+    ],
+    "a": 1,
+    "exp": "Mobile networks (2g-5g) provide cellular internet."
+  },
+  {
+    "theme": "Safety",
+    "q": "What does MFA stand for in digital security?",
+    "opts": [
+      "Multiple File Access",
+      "Multi-Factor Authentication",
+      "Main Framework Application",
+      "Master File Archive"
+    ],
+    "a": 1,
+    "exp": "MFA requires multiple verification methods."
+  },
+  {
+    "theme": "Information & data literacy",
+    "q": "What does 'cloud storage' refer to?",
+    "opts": [
+      "Storage in weather-monitoring systems",
+      "Physical servers in the sky",
+      "Remote data storage accessed via internet",
+      "Local hard drive backup"
+    ],
+    "a": 2,
+    "exp": "Cloud storage is internet-based data storage."
+  },
+  {
+    "theme": "Digital content creation",
+    "q": "What is the standard file format for documents that preserves formatting across devices?",
+    "opts": [
+      ".txt",
+      ".pdf",
+      ".html",
+      ".rtf"
+    ],
+    "a": 1,
+    "exp": "PDF preserves formatting universally."
+  },
+  {
+    "theme": "Communication & collaboration",
+    "q": "What does 'CC' stand for in email?",
+    "opts": [
+      "Computer Copy",
+      "Carbon Copy",
+      "Central Communication",
+      "Confidential Copy"
+    ],
+    "a": 1,
+    "exp": "CC sends a copy to additional recipients."
+  },
+  {
+    "theme": "Communication & collaboration",
+    "q": "What does 'BCC' allow you to do in email?",
+    "opts": [
+      "Send large attachments",
+      "Hide recipients from each other",
+      "Encrypt the message",
+      "Schedule sending time"
+    ],
+    "a": 1,
+    "exp": "BCC hides recipient addresses from each other."
+  },
+  {
+    "theme": "Safety",
+    "q": "What is phishing?",
+    "opts": [
+      "A type of computer virus",
+      "Slow internet connection",
+      "Fraudulent attempt to obtain sensitive information",
+      "A backup method"
+    ],
+    "a": 2,
+    "exp": "Phishing tricks users into revealing sensitive data."
+  },
+  {
+    "theme": "Information & data literacy",
+    "q": "What does 'bandwidth' refer to?",
+    "opts": [
+      "The width of a monitor screen",
+      "Data transfer capacity of a connection",
+      "The size of a hard drive",
+      "Number of USB ports"
+    ],
+    "a": 1,
+    "exp": "Bandwidth measures data transfer rate."
+  },
+  {
+    "theme": "Digital content creation",
+    "q": "Which tool is used to compress multiple files into one?",
+    "opts": [
+      "Scanner",
+      "Compiler",
+      "Compression tool (ZIP, RAR)",
+      "Converter"
+    ],
+    "a": 2,
+    "exp": "Compression tools create archive files."
+  },
+  {
+    "theme": "Problem solving",
+    "q": "What should you do first if a program freezes?",
+    "opts": [
+      "Restart the computer immediately",
+      "Wait and try to close it using Task Manager",
+      "Uninstall the program",
+      "Delete all files"
+    ],
+    "a": 1,
+    "exp": "Try closing the program before restarting."
+  },
+  {
+    "theme": "Safety",
+    "q": "What makes a strong password?",
+    "opts": [
+      "Your birthday",
+      "A simple word",
+      "Long, complex mix of characters",
+      "Your name"
+    ],
+    "a": 2,
+    "exp": "Strong passwords are long and complex."
+  },
+  {
+    "theme": "Information & data literacy",
+    "q": "What is metadata?",
+    "opts": [
+      "Data about data",
+      "Large datasets",
+      "Deleted data",
+      "Encrypted data"
+    ],
+    "a": 0,
+    "exp": "Metadata describes other data."
+  },
+  {
+    "theme": "Digital content creation",
+    "q": "What does 'resolution' mean for digital images?",
+    "opts": [
+      "The color scheme",
+      "Number of pixels (detail level)",
+      "File size in megabytes",
+      "Brightness level"
+    ],
+    "a": 1,
+    "exp": "Resolution indicates image detail."
+  },
+  {
+    "theme": "Communication & collaboration",
+    "q": "What is video conferencing?",
+    "opts": [
+      "Watching videos online",
+      "Live video and audio communication",
+      "Recording presentations",
+      "Downloading video files"
+    ],
+    "a": 1,
+    "exp": "Video conferencing enables real-time communication."
+  },
+  {
+    "theme": "Safety",
+    "q": "What is two-factor authentication?",
+    "opts": [
+      "Using two passwords",
+      "Logging in from two devices",
+      "Verification using two different methods",
+      "Having two user accounts"
+    ],
+    "a": 2,
+    "exp": "2FA requires two forms of verification."
+  },
+  {
+    "theme": "Problem solving",
+    "q": "What is a software update?",
+    "opts": [
+      "Buying new software",
+      "Installing improvements and fixes",
+      "Deleting old programs",
+      "Creating backups"
+    ],
+    "a": 1,
+    "exp": "Updates improve and fix software."
+  },
+  {
+    "theme": "Information & data literacy",
+    "q": "What does 'download' mean?",
+    "opts": [
+      "Reducing file size",
+      "Transferring data from internet to your device",
+      "Deleting files",
+      "Scanning documents"
+    ],
+    "a": 1,
+    "exp": "Download transfers data to your device."
+  },
+  {
+    "theme": "Information & data literacy",
+    "q": "What does 'upload' mean?",
+    "opts": [
+      "Increasing storage space",
+      "Transferring data from your device to internet",
+      "Updating software",
+      "Opening files"
+    ],
+    "a": 1,
+    "exp": "Upload transfers data from your device."
+  },
+  {
+    "theme": "Digital content creation",
+    "q": "What is the purpose of 'copy and paste'?",
+    "opts": [
+      "To delete content",
+      "To duplicate content to another location",
+      "To format text",
+      "To print documents"
+    ],
+    "a": 1,
+    "exp": "Copy-paste duplicates content."
+  },
+  {
+    "theme": "Safety",
+    "q": "Why should you log out of shared computers?",
+    "opts": [
+      "To save electricity",
+      "To prevent unauthorized access",
+      "To speed up the computer",
+      "To update software"
+    ],
+    "a": 1,
+    "exp": "Logging out protects your data."
+  },
+  {
+    "theme": "Problem solving",
+    "q": "What does 'clearing cache' do?",
+    "opts": [
+      "Deletes all files",
+      "Removes temporary stored data",
+      "Improves screen resolution",
+      "Updates the operating system"
+    ],
+    "a": 1,
+    "exp": "Cache clearing removes temporary files."
+  },
+  {
+    "theme": "Communication & collaboration",
+    "q": "What is a 'shared drive'?",
+    "opts": [
+      "A portable USB drive",
+      "Cloud storage accessible by multiple users",
+      "A car-sharing service",
+      "External hard drive"
+    ],
+    "a": 1,
+    "exp": "Shared drives enable collaborative file access."
+  },
+  {
+    "theme": "Information & data literacy",
+    "q": "What does 'spam' refer to in email?",
+    "opts": [
+      "Important messages",
+      "Unwanted or junk email",
+      "Encrypted email",
+      "Scheduled messages"
+    ],
+    "a": 1,
+    "exp": "Spam is unsolicited email."
+  },
+  {
+    "theme": "Digital content creation",
+    "q": "What is a 'template' in document creation?",
+    "opts": [
+      "A final version",
+      "A pre-designed format",
+      "A deleted file",
+      "A backup copy"
+    ],
+    "a": 1,
+    "exp": "Templates provide pre-designed layouts."
+  },
+  {
+    "theme": "Safety",
+    "q": "What should you do with suspicious email attachments?",
+    "opts": [
+      "Open them immediately",
+      "Do not open; verify sender first",
+      "Forward to colleagues",
+      "Save to desktop"
+    ],
+    "a": 1,
+    "exp": "Never open suspicious attachments."
+  },
+  {
+    "theme": "Problem solving",
+    "q": "What does 'Ctrl+Z' do?",
+    "opts": [
+      "Closes the program",
+      "Undoes the last action",
+      "Saves the document",
+      "Zooms in"
+    ],
+    "a": 1,
+    "exp": "Ctrl+Z undoes recent changes."
+  },
+  {
+    "theme": "Problem solving",
+    "q": "What does 'Ctrl+S' do?",
+    "opts": [
+      "Searches text",
+      "Saves the current document",
+      "Selects all",
+      "Prints the page"
+    ],
+    "a": 1,
+    "exp": "Ctrl+S saves your work."
+  },
+  {
+    "theme": "Communication & collaboration",
+    "q": "What is an 'attachment' in email?",
+    "opts": [
+      "The email subject",
+      "A file sent with the email",
+      "The sender's address",
+      "The email signature"
+    ],
+    "a": 1,
+    "exp": "Attachments are files included with emails."
+  },
+  {
+    "theme": "Information & data literacy",
+    "q": "What is a 'search engine'?",
+    "opts": [
+      "A type of browser",
+      "A tool to find information online",
+      "An antivirus program",
+      "An email service"
+    ],
+    "a": 1,
+    "exp": "Search engines help find online information."
+  },
+  {
+    "theme": "Safety",
+    "q": "What is encryption?",
+    "opts": [
+      "Compressing files",
+      "Converting data into coded form",
+      "Deleting sensitive data",
+      "Downloading files"
+    ],
+    "a": 1,
+    "exp": "Encryption protects data by encoding it."
+  },
+  {
+    "theme": "Digital content creation",
+    "q": "What does 'formatting' text mean?",
+    "opts": [
+      "Deleting text",
+      "Changing appearance (font, size, color)",
+      "Translating text",
+      "Printing text"
+    ],
+    "a": 1,
+    "exp": "Formatting changes text appearance."
+  },
+  {
+    "theme": "Problem solving",
+    "q": "What is a 'backup'?",
+    "opts": [
+      "Deleting old files",
+      "A copy of data for recovery",
+      "Updating software",
+      "Increasing storage"
+    ],
+    "a": 1,
+    "exp": "Backups protect against data loss."
+  },
+  {
+    "theme": "Communication & collaboration",
+    "q": "What is 'screen sharing'?",
+    "opts": [
+      "Splitting your screen in two",
+      "Showing your screen to others remotely",
+      "Having multiple monitors",
+      "Adjusting screen brightness"
+    ],
+    "a": 1,
+    "exp": "Screen sharing displays your screen to others."
+  },
+  {
+    "theme": "Safety",
+    "q": "Why should software be kept up to date?",
+    "opts": [
+      "To use more storage",
+      "To fix security vulnerabilities",
+      "To change appearance",
+      "To remove features"
+    ],
+    "a": 1,
+    "exp": "Updates patch security holes."
+  },
+  {
+    "theme": "Information & data literacy",
+    "q": "What is 'Wi-Fi'?",
+    "opts": [
+      "A type of cable",
+      "Wireless internet connection",
+      "A browser",
+      "An email service"
+    ],
+    "a": 1,
+    "exp": "Wi-Fi provides wireless internet access."
+  },
+  {
+    "theme": "Digital content creation",
+    "q": "What is 'version control' in document management?",
+    "opts": [
+      "Deleting old versions",
+      "Tracking changes across different versions",
+      "Converting file types",
+      "Encrypting documents"
+    ],
+    "a": 1,
+    "exp": "Version control tracks document changes."
+  },
+  {
+    "theme": "Safety",
+    "q": "What is a VPN?",
+    "opts": [
+      "A type of virus",
+      "Virtual Private Network for secure connection",
+      "A video platform",
+      "Very Public Network"
+    ],
+    "a": 1,
+    "exp": "VPNs create secure, private connections."
+  },
+  {
+    "theme": "Problem solving",
+    "q": "What does 'rebooting' a computer mean?",
+    "opts": [
+      "Deleting all files",
+      "Restarting the system",
+      "Installing new software",
+      "Updating the password"
+    ],
+    "a": 1,
+    "exp": "Rebooting restarts the computer."
+  },
+  {
+    "theme": "Communication & collaboration",
+    "q": "What is an 'online meeting'?",
+    "opts": [
+      "Reading meeting notes",
+      "Virtual meeting via internet",
+      "Scheduling a meeting",
+      "Printing meeting agenda"
+    ],
+    "a": 1,
+    "exp": "Online meetings occur via internet platforms."
+  },
+  {
+    "theme": "Information & data literacy",
+    "q": "What does 'URL' stand for?",
+    "opts": [
+      "Universal Resource Locator",
+      "Uniform Resource Locator",
+      "United Research Library",
+      "User Registration Link"
+    ],
+    "a": 1,
+    "exp": "URL is Uniform Resource Locator (web address)."
+  },
+  {
+    "theme": "Safety",
+    "q": "What is malware?",
+    "opts": [
+      "Broken hardware",
+      "Malicious software",
+      "Outdated software",
+      "Mail server"
+    ],
+    "a": 1,
+    "exp": "Malware is harmful software."
+  },
+  {
+    "theme": "Digital content creation",
+    "q": "What is a 'hyperlink'?",
+    "opts": [
+      "Very fast internet",
+      "Clickable link to another location",
+      "A type of font",
+      "Secure connection"
+    ],
+    "a": 1,
+    "exp": "Hyperlinks navigate to other content."
+  },
+  {
+    "theme": "Problem solving",
+    "q": "What is 'troubleshooting'?",
+    "opts": [
+      "Creating problems",
+      "Identifying and solving problems",
+      "Installing software",
+      "Deleting files"
+    ],
+    "a": 1,
+    "exp": "Troubleshooting solves technical issues."
+  },
+  {
+    "theme": "Information & data literacy",
+    "q": "What is 'data privacy'?",
+    "opts": [
+      "Hiding all data",
+      "Protecting personal information",
+      "Making data public",
+      "Deleting data"
+    ],
+    "a": 1,
+    "exp": "Data privacy protects personal information."
+  }
+]

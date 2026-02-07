@@ -1,0 +1,3146 @@
+[
+  {
+    "theme": "Digital content creation",
+    "q": "A chart shows unexpected results. First step?",
+    "opts": [
+      "Change chart colours",
+      "Check underlying data",
+      "Delete chart",
+      "Publish immediately"
+    ],
+    "a": 1,
+    "exp": "Errors often originate in data."
+  },
+  {
+    "theme": "Safety",
+    "q": "A clear subject line helps because it:",
+    "opts": [
+      "Disables spam",
+      "Encrypts email",
+      "Increases file size",
+      "Improves findability and context"
+    ],
+    "a": 3,
+    "exp": "Subjects improve organisation and clarity."
+  },
+  {
+    "theme": "Information & data literacy",
+    "q": "A colleague asks for advice outside your digital expertise. Best response?",
+    "opts": [
+      "Provide partial advice",
+      "Ignore the request",
+      "Redirect to appropriate expert or resource",
+      "Guess"
+    ],
+    "a": 2,
+    "exp": "Redirecting ensures accuracy."
+  },
+  {
+    "theme": "Safety",
+    "q": "A colleague asks for your login details to finish urgent work. What should you do?",
+    "opts": [
+      "Refuse and suggest proper access",
+      "Change password afterwards",
+      "Share them temporarily",
+      "Send via chat"
+    ],
+    "a": 0,
+    "exp": "Never share credentials; use proper access."
+  },
+  {
+    "theme": "Problem solving",
+    "q": "A colleague asks you to bypass a standard digital process to save time. Best action?",
+    "opts": [
+      "Refuse and explain the importance of the process",
+      "Ignore the request",
+      "Escalate immediately",
+      "Agree for efficiency"
+    ],
+    "a": 0,
+    "exp": "Processes exist to manage risk."
+  },
+  {
+    "theme": "Communication & collaboration",
+    "q": "A colleague asks you to email them a database export. Best response?",
+    "opts": [
+      "Use approved secure transfer method and verify need-to-know",
+      "Send via personal email",
+      "Upload publicly",
+      "Email attachment"
+    ],
+    "a": 0,
+    "exp": "Use secure channels and minimise sharing."
+  },
+  {
+    "theme": "Communication & collaboration",
+    "q": "A colleague asks you to send them confidential data in a chat for speed. Best response:",
+    "opts": [
+      "Post in group",
+      "Use approved secure channel or decline",
+      "Send it",
+      "Email personal account"
+    ],
+    "a": 1,
+    "exp": "Use appropriate secure channels."
+  },
+  {
+    "theme": "Information & data literacy",
+    "q": "A colleague asks you to share draft data that has not yet been validated. Best response?",
+    "opts": [
+      "Refuse without explanation",
+      "Modify the data first",
+      "Share immediately",
+      "Explain limitations and wait for validation"
+    ],
+    "a": 3,
+    "exp": "Unvalidated data should not be shared as final."
+  },
+  {
+    "theme": "Communication & collaboration",
+    "q": "A colleague cannot access a shared document. Best action is to:",
+    "opts": [
+      "Share your credentials",
+      "Make it public",
+      "Check and adjust permissions for that user",
+      "Send as image"
+    ],
+    "a": 2,
+    "exp": "Fix permissions; don't share credentials."
+  },
+  {
+    "theme": "Information & data literacy",
+    "q": "A colleague challenges your digital conclusions with alternative data. Best response?",
+    "opts": [
+      "Compare datasets objectively",
+      "Withdraw immediately",
+      "Defend your view only",
+      "Ignore their data"
+    ],
+    "a": 0,
+    "exp": "Objective comparison improves quality."
+  },
+  {
+    "theme": "Problem solving",
+    "q": "A colleague misinterprets a chart you shared. Best response?",
+    "opts": [
+      "Clarify assumptions and explanation",
+      "Ignore the misunderstanding",
+      "Replace the chart",
+      "Correct them publicly"
+    ],
+    "a": 0,
+    "exp": "Clarification improves understanding."
+  },
+  {
+    "theme": "Safety",
+    "q": "A colleague requests admin rights for convenience. Best response?",
+    "opts": [
+      "Share your admin account",
+      "Ignore them",
+      "Follow least privilege; request justification and approvals",
+      "Grant it"
+    ],
+    "a": 2,
+    "exp": "Admin rights only when justified/approved."
+  },
+  {
+    "theme": "Communication & collaboration",
+    "q": "A colleague requests full access to a document but only needs to read it. Best action?",
+    "opts": [
+      "Share a screenshot",
+      "Grant read-only access",
+      "Grant full access",
+      "Refuse access"
+    ],
+    "a": 1,
+    "exp": "Least-privilege access reduces risk."
+  },
+  {
+    "theme": "Communication & collaboration",
+    "q": "A colleague requests immediate answers without sufficient data. Best response?",
+    "opts": [
+      "Refuse completely",
+      "Guess",
+      "Delay until data is available or explain limits",
+      "Provide estimates"
+    ],
+    "a": 2,
+    "exp": "Decisions require sufficient data."
+  },
+  {
+    "theme": "Communication & collaboration",
+    "q": "A colleague sends a file-sharing link set to 'anyone with link can edit'. Best action?",
+    "opts": [
+      "Use it as-is",
+      "Ask to restrict permissions (view/edit) to intended users",
+      "Download and re-upload publicly",
+      "Forward link widely"
+    ],
+    "a": 1,
+    "exp": "Apply least privilege on sharing."
+  },
+  {
+    "theme": "Communication & collaboration",
+    "q": "A colleague shares data via an unapproved platform for convenience. Best response?",
+    "opts": [
+      "Report immediately without discussion",
+      "Ignore it",
+      "Explain risks and suggest approved tools",
+      "Use it anyway"
+    ],
+    "a": 2,
+    "exp": "Guidance and redirection are proportionate."
+  },
+  {
+    "theme": "Communication & collaboration",
+    "q": "A colleague wants to reuse your analysis without attribution. Best response?",
+    "opts": [
+      "Refuse entirely",
+      "Escalate immediately",
+      "Request proper attribution",
+      "Allow it"
+    ],
+    "a": 2,
+    "exp": "Attribution supports transparency."
+  },
+  {
+    "theme": "Information & data literacy",
+    "q": "A coworker asks you to install software from an unofficial website. Best response?",
+    "opts": [
+      "Refuse and request approved installation through IT",
+      "Disable antivirus first",
+      "Install it",
+      "Share the link"
+    ],
+    "a": 0,
+    "exp": "Use approved software sources."
+  },
+  {
+    "theme": "Information & data literacy",
+    "q": "A dataset contains missing values. Best practice is to:",
+    "opts": [
+      "Guess values",
+      "Delete the dataset",
+      "Analyse and document missing data",
+      "Ignore them"
+    ],
+    "a": 2,
+    "exp": "Missing data affects analysis quality."
+  },
+  {
+    "theme": "Problem solving",
+    "q": "A digital decision-support tool is used in practice beyond the scope originally approved. What is the most appropriate response?",
+    "opts": [
+      "Formally reassess the use, risks, and legal basis before continuation",
+      "Continue use if outcomes appear satisfactory",
+      "Expand use informally to maximise benefits",
+      "Deactivate the tool permanently"
+    ],
+    "a": 0,
+    "exp": "Correct because it prioritises formally reassess the use risks and legal basis."
+  },
+  {
+    "theme": "Problem solving",
+    "q": "A digital process saves time but increases risk. Best response?",
+    "opts": [
+      "Adopt it",
+      "Assess and mitigate risks",
+      "Ignore efficiency gains",
+      "Reject it immediately"
+    ],
+    "a": 1,
+    "exp": "Risk mitigation is key."
+  },
+  {
+    "theme": "Problem solving",
+    "q": "A digital project is justified internally as a pilot to avoid full compliance procedures. What is the primary risk of this approach?",
+    "opts": [
+      "Lower innovation potential",
+      "Delayed project delivery",
+      "Circumvention of legal and governance safeguards",
+      "Increased administrative burden"
+    ],
+    "a": 2,
+    "exp": "Correct because it prioritises circumvention of legal and governance safeguards."
+  },
+  {
+    "theme": "Safety",
+    "q": "A digital project prioritises rapid deployment over security testing due to political pressure. What is the most significant risk?",
+    "opts": [
+      "Exposure to security incidents and loss of trust",
+      "Higher long-term innovation costs",
+      "Reduced project visibility",
+      "Lower user adoption"
+    ],
+    "a": 0,
+    "exp": "Correct because it prioritises exposure to security incidents and loss of trust."
+  },
+  {
+    "theme": "Communication & collaboration",
+    "q": "A digital project team argues that documenting decisions slows down innovation and should be avoided. What is the primary counter-argument?",
+    "opts": [
+      "Innovation requires complete operational freedom",
+      "Undocumented decisions are easier to reverse",
+      "Documentation is only required for large projects",
+      "Documentation supports accountability, continuity, and legal compliance"
+    ],
+    "a": 3,
+    "exp": "Correct because it prioritises documentation supports accountability continuity and legal compliance."
+  },
+  {
+    "theme": "Problem solving",
+    "q": "A digital project uses training data that is no longer representative of current conditions. What is the primary risk?",
+    "opts": [
+      "Inaccurate or unfair outcomes",
+      "Lower storage efficiency",
+      "Decreased system responsiveness",
+      "Higher maintenance costs"
+    ],
+    "a": 0,
+    "exp": "Correct because it prioritises inaccurate or unfair outcomes."
+  },
+  {
+    "theme": "Problem solving",
+    "q": "A digital service automatically rejects applications that do not meet predefined criteria, with no record kept of rejected cases. What is the main governance issue?",
+    "opts": [
+      "Inability to audit decisions and handle complaints effectively",
+      "Higher data storage costs",
+      "Lower user satisfaction",
+      "Reduced system efficiency"
+    ],
+    "a": 0,
+    "exp": "Correct because it prioritises inability to audit decisions and handle complaints effectively."
+  },
+  {
+    "theme": "Safety",
+    "q": "A digital service collects more personal data than necessary to provide its core function. Which principle is being violated?",
+    "opts": [
+      "Integrity",
+      "Data minimisation",
+      "Storage limitation",
+      "Accuracy"
+    ],
+    "a": 1,
+    "exp": "Correct because it prioritises data minimisation."
+  },
+  {
+    "theme": "Problem solving",
+    "q": "A digital service processes personal data based on consent obtained through a general terms-of-use notice. What is the main compliance concern?",
+    "opts": [
+      "Consent is always invalid in the public sector",
+      "Processing speed is reduced",
+      "Consent may not be freely given, specific, or informed",
+      "Terms-of-use notices are not legally recognised"
+    ],
+    "a": 2,
+    "exp": "Correct because it prioritises consent may not be freely given specific or."
+  },
+  {
+    "theme": "Safety",
+    "q": "A digital service provider proposes to retain detailed user logs indefinitely for potential future analytics. What is the most appropriate response?",
+    "opts": [
+      "Delete logs immediately after collection",
+      "Allow retention if access is restricted",
+      "Accept retention to maximise future analytical value",
+      "Define clear retention periods aligned with purpose and legal obligations"
+    ],
+    "a": 3,
+    "exp": "Correct because it prioritises define clear retention periods aligned with purpose and."
+  },
+  {
+    "theme": "Information & data literacy",
+    "q": "A digital system automatically flags cases for further investigation based on predefined risk indicators. What governance measure is most appropriate?",
+    "opts": [
+      "Remove all human involvement to avoid bias",
+      "Ensure regular human oversight and review of system outputs",
+      "Increase the number of indicators without documentation",
+      "Keep the criteria confidential to prevent challenges"
+    ],
+    "a": 1,
+    "exp": "Correct because it prioritises ensure regular human oversight and review of system."
+  },
+  {
+    "theme": "Safety",
+    "q": "A digital system processes personal data indefinitely without review. Which GDPR principle is most directly breached?",
+    "opts": [
+      "Storage limitation",
+      "Lawfulness",
+      "Transparency",
+      "Purpose limitation"
+    ],
+    "a": 0,
+    "exp": "Correct because it prioritises storage limitation."
+  },
+  {
+    "theme": "Problem solving",
+    "q": "A digital system supporting enforcement actions cannot explain why certain cases are prioritised. Which principle is most at risk?",
+    "opts": [
+      "Efficiency",
+      "Interoperability",
+      "Transparency and the right to good administration",
+      "Proportionality"
+    ],
+    "a": 2,
+    "exp": "Correct because it prioritises transparency and the right to good administration."
+  },
+  {
+    "theme": "Digital content creation",
+    "q": "A digital system used by a public authority is modified repeatedly without updating documentation. What is the main long-term risk?",
+    "opts": [
+      "Higher development speed",
+      "Loss of interoperability",
+      "Loss of control, auditability, and compliance over time",
+      "Increased user satisfaction"
+    ],
+    "a": 2,
+    "exp": "Correct because it prioritises loss of control auditability and compliance over time."
+  },
+  {
+    "theme": "Problem solving",
+    "q": "A digital system uses probabilistic scores to support enforcement decisions, but staff are not trained to interpret these scores. What is the primary concern?",
+    "opts": [
+      "Misinterpretation leading to disproportionate or arbitrary decisions",
+      "Lower system availability",
+      "Reduced operational efficiency",
+      "Increased IT maintenance costs"
+    ],
+    "a": 0,
+    "exp": "Correct because it prioritises misinterpretation leading to disproportionate or arbitrary decisions."
+  },
+  {
+    "theme": "Problem solving",
+    "q": "A digital tool suggests an automated decision you do not fully understand. Best action?",
+    "opts": [
+      "Disable the tool",
+      "Review and understand before relying on it",
+      "Accept it automatically",
+      "Ask colleagues to decide"
+    ],
+    "a": 1,
+    "exp": "Automated outputs require human oversight."
+  },
+  {
+    "theme": "Information & data literacy",
+    "q": "A digital tool used for policy analysis integrates data from multiple sources with varying levels of reliability. What is the main governance risk?",
+    "opts": [
+      "Overreliance on potentially biased or inaccurate data",
+      "Higher infrastructure costs",
+      "Reduced interoperability",
+      "Increased processing speed"
+    ],
+    "a": 0,
+    "exp": "Correct because it prioritises overreliance on potentially biased or inaccurate data."
+  },
+  {
+    "theme": "Problem solving",
+    "q": "A digital workflow requires staff to bypass certain controls to meet tight deadlines. What is the main risk?",
+    "opts": [
+      "Reduced system performance",
+      "Lower employee satisfaction",
+      "Erosion of security, compliance, and accountability",
+      "Increased administrative workload"
+    ],
+    "a": 2,
+    "exp": "Correct because it prioritises erosion of security compliance and accountability."
+  },
+  {
+    "theme": "Digital content creation",
+    "q": "A document contains complex information for a non-expert audience. Best improvement?",
+    "opts": [
+      "Add more technical detail",
+      "Remove content",
+      "Simplify structure and language",
+      "Convert to images only"
+    ],
+    "a": 2,
+    "exp": "Clarity should match the audience."
+  },
+  {
+    "theme": "Digital content creation",
+    "q": "A document is shared without context. Best improvement?",
+    "opts": [
+      "Reduce content",
+      "Add context or summary",
+      "Change file format",
+      "Lock the document"
+    ],
+    "a": 1,
+    "exp": "Context aids understanding."
+  },
+  {
+    "theme": "Problem solving",
+    "q": "A document shows outdated content. Most likely fix?",
+    "opts": [
+      "Disable updates",
+      "Refresh/sync and check correct version",
+      "Delete account",
+      "New laptop"
+    ],
+    "a": 1,
+    "exp": "Sync/version issues are common."
+  },
+  {
+    "theme": "Safety",
+    "q": "A file appears to come from a colleague but the writing style is unusual. Best action?",
+    "opts": [
+      "Reply with password",
+      "Verify via another channel before acting",
+      "Open immediately",
+      "Forward to everyone"
+    ],
+    "a": 1,
+    "exp": "Verify suspected impersonation."
+  },
+  {
+    "theme": "Communication & collaboration",
+    "q": "A file is 'read-only'. Likely cause?",
+    "opts": [
+      "Brightness",
+      "Permissions or file locked by another user",
+      "Virus",
+      "Battery"
+    ],
+    "a": 1,
+    "exp": "Locks/permissions make files read-only."
+  },
+  {
+    "theme": "Digital content creation",
+    "q": "A file opens incorrectly. What may help?",
+    "opts": [
+      "Share publicly",
+      "Check file format and associated app",
+      "Delete content",
+      "Rename randomly"
+    ],
+    "a": 1,
+    "exp": "Wrong app/format causes issues."
+  },
+  {
+    "theme": "Problem solving",
+    "q": "A good practice to avoid misunderstandings is to:",
+    "opts": [
+      "Use sarcasm",
+      "Use vague wording",
+      "Avoid summaries",
+      "State deadlines, owners, and next steps clearly"
+    ],
+    "a": 3,
+    "exp": "Clarity reduces errors."
+  },
+  {
+    "theme": "Information & data literacy",
+    "q": "A link opens but looks wrong. Best action?",
+    "opts": [
+      "Stop and verify URL/domain before entering data",
+      "Continue",
+      "Disable warnings",
+      "Share with team"
+    ],
+    "a": 0,
+    "exp": "Verify destination."
+  },
+  {
+    "theme": "Information & data literacy",
+    "q": "A link shortener hides the destination. Best practice is to:",
+    "opts": [
+      "Forward to everyone",
+      "Click anyway",
+      "Disable browser protection",
+      "Avoid or expand/verify the link destination"
+    ],
+    "a": 3,
+    "exp": "Verify destination URL."
+  },
+  {
+    "theme": "Safety",
+    "q": "A login fails repeatedly. Best next step?",
+    "opts": [
+      "Disable MFA",
+      "Check caps lock, reset via official process",
+      "Share password",
+      "Keep trying"
+    ],
+    "a": 1,
+    "exp": "Use official reset process."
+  },
+  {
+    "theme": "Communication & collaboration",
+    "q": "A lost work laptop should be reported because:",
+    "opts": [
+      "It may contain sensitive data",
+      "It affects productivity",
+      "It is inconvenient",
+      "It delays meetings"
+    ],
+    "a": 0,
+    "exp": "Lost devices can expose data."
+  },
+  {
+    "theme": "Safety",
+    "q": "A manager asks for full access to a database containing personal data \"in case it is needed later.\" What is the most appropriate response?",
+    "opts": [
+      "Refuse access without explanation",
+      "Grant full access to prevent delays",
+      "Grant read-only access to all data",
+      "Apply the principle of least privilege and formally document access needs"
+    ],
+    "a": 3,
+    "exp": "Correct because it prioritises apply the principle of least privilege and formally."
+  },
+  {
+    "theme": "Safety",
+    "q": "A manager requests regular reports containing identifiable personal data, although aggregated data would suffice. What is the most appropriate approach?",
+    "opts": [
+      "Provide anonymised or aggregated data instead",
+      "Delay providing any data until further notice",
+      "Deny the request without justification",
+      "Provide the reports as requested to maintain transparency"
+    ],
+    "a": 0,
+    "exp": "Correct because it prioritises provide anonymised or aggregated data instead."
+  },
+  {
+    "theme": "Safety",
+    "q": "A message asks you to 'confirm your mailbox quota' by logging in. Best action?",
+    "opts": [
+      "Send password by email",
+      "Verify via the official portal/IT and report",
+      "Ignore security warnings",
+      "Log in via the link"
+    ],
+    "a": 1,
+    "exp": "Quota messages are a common phishing pattern; verify via trusted channels."
+  },
+  {
+    "theme": "Safety",
+    "q": "A pop-up claims 'Your account will be locked in 5 minutes' and asks to sign in. Best action?",
+    "opts": [
+      "Close it and verify via official portal",
+      "Disable browser security",
+      "Share with colleagues",
+      "Sign in quickly"
+    ],
+    "a": 0,
+    "exp": "Verify via trusted channel."
+  },
+  {
+    "theme": "Communication & collaboration",
+    "q": "A project team uses a cloud-based collaboration platform hosted outside the EU to share sensitive working documents. What is the most critical compliance consideration?",
+    "opts": [
+      "Ease of use of the platform",
+      "Availability of mobile access",
+      "Speed of document synchronisation",
+      "Compliance of international data transfers with GDPR Chapter V requirements"
+    ],
+    "a": 3,
+    "exp": "Correct because it prioritises compliance of international data transfers with gdpr chapter."
+  },
+  {
+    "theme": "Digital content creation",
+    "q": "A public administration considers reusing open data published by another authority to develop a digital service. What must be verified first?",
+    "opts": [
+      "That the data is technically compatible with internal systems",
+      "That the licence terms allow the intended reuse",
+      "That the dataset is frequently updated",
+      "That the data can be monetised in the future"
+    ],
+    "a": 1,
+    "exp": "Correct because it prioritises that the licence terms allow the intended reuse."
+  },
+  {
+    "theme": "Problem solving",
+    "q": "A public authority cannot identify who is responsible for decisions influenced by an automated system. What core principle is undermined?",
+    "opts": [
+      "Interoperability",
+      "Efficiency",
+      "Accountability",
+      "Neutrality"
+    ],
+    "a": 2,
+    "exp": "Correct because it prioritises accountability."
+  },
+  {
+    "theme": "Problem solving",
+    "q": "A public authority deploys an AI tool to assist in risk scoring but staff are instructed to always follow the systemâs recommendation. What is the main issue?",
+    "opts": [
+      "Reduced processing speed",
+      "Inconsistent application of criteria",
+      "De facto automated decision-making without meaningful human oversight",
+      "Higher training costs"
+    ],
+    "a": 2,
+    "exp": "Correct because it prioritises de facto automated decision-making without meaningful human oversight."
+  },
+  {
+    "theme": "Problem solving",
+    "q": "A public authority deploys an automated decision-support system but does not document how key parameters are set. What is the primary risk?",
+    "opts": [
+      "Reduced system performance",
+      "Inability to ensure accountability and auditability",
+      "Higher operational costs",
+      "Limited user adoption"
+    ],
+    "a": 1,
+    "exp": "Correct because it prioritises inability to ensure accountability and auditability."
+  },
+  {
+    "theme": "Problem solving",
+    "q": "A public authority integrates several legacy databases into a new digital platform without reassessing data quality and relevance. What is the main risk?",
+    "opts": [
+      "Propagation of errors and outdated information into new decisions",
+      "Higher integration costs",
+      "Limited scalability of the platform",
+      "Reduced processing speed"
+    ],
+    "a": 0,
+    "exp": "Correct because it prioritises propagation of errors and outdated information into new."
+  },
+  {
+    "theme": "Problem solving",
+    "q": "A public authority introduces a new digital workflow that significantly changes how individual cases are assessed, but does not update internal procedures or guidance. What is the main risk?",
+    "opts": [
+      "Higher training costs",
+      "Reduced system interoperability",
+      "Inconsistent application of rules and legal uncertainty",
+      "Slower case processing"
+    ],
+    "a": 2,
+    "exp": "Correct because it prioritises inconsistent application of rules and legal uncertainty."
+  },
+  {
+    "theme": "Problem solving",
+    "q": "A public authority introduces an automated triage system for complaints, but no procedure exists to challenge or review its outcomes. What is the main risk?",
+    "opts": [
+      "Reduced staff autonomy",
+      "Increased processing time",
+      "Higher development costs",
+      "Infringement of the right to effective remedy and good administration"
+    ],
+    "a": 3,
+    "exp": "Correct because it prioritises infringement of the right to effective remedy and."
+  },
+  {
+    "theme": "Problem solving",
+    "q": "A public authority plans to deploy an AI-based tool to prioritise citizen requests using historical administrative data. What must be done before deployment to comply with legal and ethical obligations?",
+    "opts": [
+      "Conduct a Data Protection Impact Assessment and assess potential algorithmic bias",
+      "Inform users that decisions are automated without further safeguards",
+      "Rely exclusively on the vendorâs compliance assurances",
+      "Deploy the tool and address issues only after complaints arise"
+    ],
+    "a": 0,
+    "exp": "Correct because it prioritises conduct a data protection impact assessment and assess."
+  },
+  {
+    "theme": "Problem solving",
+    "q": "A public authority plans to introduce biometric authentication for access to its premises. Which obligation is most critical before implementation?",
+    "opts": [
+      "Rely on consent obtained through internal policy notices",
+      "Inform staff after the system becomes operational",
+      "Ensure the system reduces waiting times at entry points",
+      "Carry out a Data Protection Impact Assessment due to processing of special category data"
+    ],
+    "a": 3,
+    "exp": "Correct because it prioritises carry out a data protection impact assessment due."
+  },
+  {
+    "theme": "Problem solving",
+    "q": "A public authority plans to use social media data to monitor public opinion for policy purposes. What is the most important legal consideration?",
+    "opts": [
+      "Whether the data is publicly accessible",
+      "Whether the analysis can be automated",
+      "The volume of data that can be collected",
+      "Whether a lawful basis for processing exists and is documented"
+    ],
+    "a": 3,
+    "exp": "Correct because it prioritises whether a lawful basis for processing exists and."
+  },
+  {
+    "theme": "Problem solving",
+    "q": "A public authority relies on automated analytics to detect fraud but does not assess false positives. What is the principal concern?",
+    "opts": [
+      "Reduced detection rates",
+      "Higher operational costs",
+      "Lower system scalability",
+      "Unjustified adverse effects on individuals"
+    ],
+    "a": 3,
+    "exp": "Correct because it prioritises unjustified adverse effects on individuals."
+  },
+  {
+    "theme": "Information & data literacy",
+    "q": "A public authority relies on predictive analytics to allocate inspection resources but does not periodically review outcomes. What is the main risk?",
+    "opts": [
+      "Lower staff engagement",
+      "Reduced inspection coverage",
+      "Reinforcement of outdated or biased assumptions",
+      "Escalating operational costs"
+    ],
+    "a": 2,
+    "exp": "Correct because it prioritises reinforcement of outdated or biased assumptions."
+  },
+  {
+    "theme": "Problem solving",
+    "q": "A public authority uses an algorithm to prioritise inspections but does not inform the affected entities of this practice. What is the main legal risk?",
+    "opts": [
+      "Increased operational costs",
+      "Violation of transparency obligations and the right to be informed",
+      "Lower effectiveness of inspections",
+      "Reduced deterrence effect"
+    ],
+    "a": 1,
+    "exp": "Correct because it prioritises violation of transparency obligations and the right to."
+  },
+  {
+    "theme": "Problem solving",
+    "q": "A public body adopts an AI system developed using proprietary models and refuses to disclose any information about its functioning. What is the key issue?",
+    "opts": [
+      "Higher procurement costs",
+      "Inability to ensure transparency and accountability of public decisions",
+      "Reduced innovation incentives",
+      "Lower system performance"
+    ],
+    "a": 1,
+    "exp": "Correct because it prioritises inability to ensure transparency and accountability of public."
+  },
+  {
+    "theme": "Problem solving",
+    "q": "A public body deploys a chatbot to answer citizen queries, but the chatbot occasionally provides incorrect legal information. What is the most appropriate mitigation measure?",
+    "opts": [
+      "Limit chatbot availability to office hours",
+      "Add clear disclaimers and ensure human supervision and escalation paths",
+      "Rely on user feedback to correct errors over time",
+      "Disable the chatbot entirely"
+    ],
+    "a": 1,
+    "exp": "Correct because it prioritises add clear disclaimers and ensure human supervision and."
+  },
+  {
+    "theme": "Problem solving",
+    "q": "A public body introduces automated content filtering on its website without informing users. What principle is most directly affected?",
+    "opts": [
+      "Efficiency",
+      "Accuracy",
+      "Data portability",
+      "Transparency"
+    ],
+    "a": 3,
+    "exp": "Correct because it prioritises transparency."
+  },
+  {
+    "theme": "Problem solving",
+    "q": "A public body outsources moderation of digital services to a private contractor without defining escalation procedures. What is the main governance concern?",
+    "opts": [
+      "Reduced service availability",
+      "Higher operational costs",
+      "Unclear accountability for decisions affecting users",
+      "Lower technical performance"
+    ],
+    "a": 2,
+    "exp": "Correct because it prioritises unclear accountability for decisions affecting users."
+  },
+  {
+    "theme": "Safety",
+    "q": "A public body plans to introduce behavioural analytics to monitor employee activity without consulting staff representatives. What is the primary concern?",
+    "opts": [
+      "Insufficient analytical accuracy",
+      "Potential infringement of privacy and labour law obligations",
+      "Increased operational costs",
+      "Technical complexity of the system"
+    ],
+    "a": 1,
+    "exp": "Correct because it prioritises potential infringement of privacy and labour law obligations."
+  },
+  {
+    "theme": "Problem solving",
+    "q": "A public body plans to outsource data hosting to a cloud provider. Which aspect is most critical from a governance perspective?",
+    "opts": [
+      "Clear allocation of responsibilities and contractual safeguards",
+      "Pricing flexibility",
+      "Brand reputation of the provider",
+      "Availability of advanced analytics tools"
+    ],
+    "a": 0,
+    "exp": "Correct because it prioritises clear allocation of responsibilities and contractual safeguards."
+  },
+  {
+    "theme": "Problem solving",
+    "q": "A public body relies on a third-party algorithm to rank funding applications but does not understand its functioning. What is the main governance issue?",
+    "opts": [
+      "Lack of transparency and inability to justify decisions",
+      "Higher licensing costs",
+      "Delayed processing times",
+      "Dependence on external expertise"
+    ],
+    "a": 0,
+    "exp": "Correct because it prioritises lack of transparency and inability to justify decisions."
+  },
+  {
+    "theme": "Problem solving",
+    "q": "A public body stores personal data in multiple systems without a clear data inventory. What is the main governance issue?",
+    "opts": [
+      "Higher storage costs",
+      "Reduced analytical capacity",
+      "Limited system scalability",
+      "Inability to ensure compliance with data subject rights and retention rules"
+    ],
+    "a": 3,
+    "exp": "Correct because it prioritises inability to ensure compliance with data subject rights."
+  },
+  {
+    "theme": "Safety",
+    "q": "A public sector digital project lacks clear ownership for data protection and cybersecurity responsibilities. What is the main consequence?",
+    "opts": [
+      "Lower operational costs",
+      "Faster decision-making",
+      "Improved flexibility",
+      "Increased risk of non-compliance and unmanaged incidents"
+    ],
+    "a": 3,
+    "exp": "Correct because it prioritises increased risk of non-compliance and unmanaged incidents."
+  },
+  {
+    "theme": "Safety",
+    "q": "A QR code asks you to login. Best practice?",
+    "opts": [
+      "Forward to friends",
+      "Disable warnings",
+      "Verify source and URL before entering credentials",
+      "Scan and login"
+    ],
+    "a": 2,
+    "exp": "Verify destination before credentials."
+  },
+  {
+    "theme": "Digital content creation",
+    "q": "A report includes visually impressive but misleading graphics. Best action?",
+    "opts": [
+      "Remove all visuals",
+      "Add more effects",
+      "Adjust visuals to reflect data accurately",
+      "Keep them"
+    ],
+    "a": 2,
+    "exp": "Visuals must accurately represent data."
+  },
+  {
+    "theme": "Safety",
+    "q": "A secure email habit is to:",
+    "opts": [
+      "Verify recipients",
+      "Disable spam filters",
+      "Share passwords",
+      "CC everyone"
+    ],
+    "a": 0,
+    "exp": "Verify recipients to avoid leaks."
+  },
+  {
+    "theme": "Communication & collaboration",
+    "q": "A shared document includes tracked changes not yet accepted. Best practice?",
+    "opts": [
+      "Ignore them",
+      "Review and resolve changes",
+      "Accept all blindly",
+      "Delete history"
+    ],
+    "a": 1,
+    "exp": "Tracked changes require review."
+  },
+  {
+    "theme": "Safety",
+    "q": "A shared document is locked. Most likely reason?",
+    "opts": [
+      "Security breach",
+      "File damaged",
+      "Internet down",
+      "Another user editing"
+    ],
+    "a": 3,
+    "exp": "Locks prevent simultaneous conflicts."
+  },
+  {
+    "theme": "Communication & collaboration",
+    "q": "A shared file cannot be edited. Likely cause?",
+    "opts": [
+      "Internet speed",
+      "Corruption",
+      "File size",
+      "Permission settings"
+    ],
+    "a": 3,
+    "exp": "Permissions often restrict editing."
+  },
+  {
+    "theme": "Communication & collaboration",
+    "q": "A shared folder becomes cluttered with duplicate files. Best practice?",
+    "opts": [
+      "Leave it",
+      "Organise and agree naming/version rules",
+      "Delete everything",
+      "Create a new folder privately"
+    ],
+    "a": 1,
+    "exp": "Organisation improves collaboration."
+  },
+  {
+    "theme": "Safety",
+    "q": "A shared online form collects unnecessary personal data. Best action?",
+    "opts": [
+      "Leave it",
+      "Disable the form",
+      "Add more fields",
+      "Reduce data to what is necessary"
+    ],
+    "a": 3,
+    "exp": "Data minimisation is required."
+  },
+  {
+    "theme": "Digital content creation",
+    "q": "A shared spreadsheet allows unrestricted editing and errors appear. Best response?",
+    "opts": [
+      "Delete the spreadsheet",
+      "Recreate it privately",
+      "Lock everyone out",
+      "Restrict editing rights appropriately"
+    ],
+    "a": 3,
+    "exp": "Controlled access improves integrity."
+  },
+  {
+    "theme": "Information & data literacy",
+    "q": "A software license key arrives by email from an unknown sender. Best response?",
+    "opts": [
+      "Disable security",
+      "Forward broadly",
+      "Use it",
+      "Treat as suspicious and verify source"
+    ],
+    "a": 3,
+    "exp": "Unknown keys can be scams."
+  },
+  {
+    "theme": "Digital content creation",
+    "q": "A spreadsheet formula gives unexpected result. First action?",
+    "opts": [
+      "Check cell references and formatting",
+      "Ignore",
+      "Delete sheet",
+      "Send to everyone"
+    ],
+    "a": 0,
+    "exp": "Reference/format issues are common."
+  },
+  {
+    "theme": "Problem solving",
+    "q": "A suspicious calendar invite may:",
+    "opts": [
+      "Contain malicious links",
+      "Improve scheduling",
+      "Increase storage",
+      "Fix errors"
+    ],
+    "a": 0,
+    "exp": "Invites can be social engineering."
+  },
+  {
+    "theme": "Communication & collaboration",
+    "q": "A suspicious email asks you to 'confirm bank details'. Best response?",
+    "opts": [
+      "Verify through official contact methods",
+      "Click unsubscribe",
+      "Forward to team",
+      "Reply with details"
+    ],
+    "a": 0,
+    "exp": "Verify independently; do not share data."
+  },
+  {
+    "theme": "Safety",
+    "q": "A system administrator receives a request from a colleague to access personal data outside their usual responsibilities due to workload pressure. What is the most appropriate response?",
+    "opts": [
+      "Share extracted data informally",
+      "Refuse or escalate the request in line with access control policies",
+      "Grant access temporarily to support the colleague",
+      "Grant access but restrict logging to save time"
+    ],
+    "a": 1,
+    "exp": "Correct because it prioritises refuse or escalate the request in line with."
+  },
+  {
+    "theme": "Problem solving",
+    "q": "A tool behaves differently after an update. Best action?",
+    "opts": [
+      "Ignore change",
+      "Disable updates",
+      "Uninstall OS",
+      "Check release notes/help"
+    ],
+    "a": 3,
+    "exp": "Updates may change behaviour."
+  },
+  {
+    "theme": "Digital content creation",
+    "q": "A tool update changes how results are displayed. Best response?",
+    "opts": [
+      "Revert without approval",
+      "Ignore differences",
+      "Disable updates",
+      "Review documentation and adjust interpretation"
+    ],
+    "a": 3,
+    "exp": "Updates may alter outputs."
+  },
+  {
+    "theme": "Communication & collaboration",
+    "q": "A tool works for colleagues but not for you. First step?",
+    "opts": [
+      "Ignore",
+      "Reinstall system",
+      "Check local settings and permissions",
+      "Request new hardware"
+    ],
+    "a": 2,
+    "exp": "Local configuration issues are common."
+  },
+  {
+    "theme": "Information & data literacy",
+    "q": "A useful etiquette in group channels is to:",
+    "opts": [
+      "Avoid context",
+      "Use threads or separate messages per topic",
+      "Start multiple topics in one message",
+      "Tag everyone always"
+    ],
+    "a": 1,
+    "exp": "Threads keep organised."
+  },
+  {
+    "theme": "Problem solving",
+    "q": "A web form wonât submit. Troubleshooting step?",
+    "opts": [
+      "Turn off security",
+      "Post data publicly",
+      "Disable updates",
+      "Try another browser or clear cache"
+    ],
+    "a": 3,
+    "exp": "Browser/cache issues are common."
+  },
+  {
+    "theme": "Problem solving",
+    "q": "A webpage displays incorrectly only in one browser. Reason?",
+    "opts": [
+      "Internet outage",
+      "Hardware failure",
+      "Account blocked",
+      "Browser compatibility issue"
+    ],
+    "a": 3,
+    "exp": "Browser differences affect rendering."
+  },
+  {
+    "theme": "Problem solving",
+    "q": "A website does not load but others do. Likely cause?",
+    "opts": [
+      "No internet",
+      "Device failure",
+      "Site-specific issue",
+      "Virus"
+    ],
+    "a": 2,
+    "exp": "If others work, itâs likely site-specific."
+  },
+  {
+    "theme": "Problem solving",
+    "q": "After an update, errors appear. Best response?",
+    "opts": [
+      "Ignore errors",
+      "Downgrade without approval",
+      "Check official support information",
+      "Disable security"
+    ],
+    "a": 2,
+    "exp": "Updates may introduce known issues."
+  },
+  {
+    "theme": "Problem solving",
+    "q": "An AI system supporting decision-making shows consistently different outcomes for comparable cases. What should be done first?",
+    "opts": [
+      "Adjust outcomes manually without analysing the cause",
+      "Replace the system immediately",
+      "Investigate potential bias or data quality issues",
+      "Ignore the issue if overall efficiency improves"
+    ],
+    "a": 2,
+    "exp": "Correct because it prioritises investigate potential bias or data quality issues."
+  },
+  {
+    "theme": "Safety",
+    "q": "An AI-supported system is updated by a vendor through remote access without validation by the public authority. What is the main risk?",
+    "opts": [
+      "Reduced vendor accountability",
+      "Loss of control over system behaviour and compliance",
+      "Delayed deployment of new features",
+      "Higher maintenance costs"
+    ],
+    "a": 1,
+    "exp": "Correct because it prioritises loss of control over system behaviour and compliance."
+  },
+  {
+    "theme": "Safety",
+    "q": "An app cannot access the camera/microphone. Best first step?",
+    "opts": [
+      "Disable security",
+      "Check browser/app permissions settings",
+      "Restart router",
+      "Buy new device"
+    ],
+    "a": 1,
+    "exp": "Permission settings commonly block camera/mic access."
+  },
+  {
+    "theme": "Problem solving",
+    "q": "An application freezes repeatedly. Best first step?",
+    "opts": [
+      "Ignore",
+      "Restart the application",
+      "Delete files",
+      "Buy new device"
+    ],
+    "a": 1,
+    "exp": "Restart resolves temporary issues."
+  },
+  {
+    "theme": "Communication & collaboration",
+    "q": "An application lacks access to the microphone. First check?",
+    "opts": [
+      "Check permission settings",
+      "Replace device",
+      "Restart router",
+      "Disable antivirus"
+    ],
+    "a": 0,
+    "exp": "Permissions often block access."
+  },
+  {
+    "theme": "Communication & collaboration",
+    "q": "An attachment ends with .exe. What is safest?",
+    "opts": [
+      "Do not open; report",
+      "Open it",
+      "Rename to .pdf",
+      "Forward to colleagues"
+    ],
+    "a": 0,
+    "exp": "Executable attachments are high risk."
+  },
+  {
+    "theme": "Safety",
+    "q": "An employee copies work files containing personal data onto a USB stick to work while travelling. Which measure would best mitigate the associated risk?",
+    "opts": [
+      "Reducing the number of files copied",
+      "Using a larger storage device",
+      "Relying on the employeeâs discretion",
+      "Encrypting the device and applying access controls"
+    ],
+    "a": 3,
+    "exp": "Correct because it prioritises encrypting the device and applying access controls."
+  },
+  {
+    "theme": "Safety",
+    "q": "An employee is asked to urgently share a dataset containing personal data with another department without a data-sharing agreement. What is the most appropriate action?",
+    "opts": [
+      "Share only after anonymising key fields without assessment",
+      "Refuse permanently regardless of circumstances",
+      "Pause and ensure a lawful basis and appropriate safeguards are in place",
+      "Share the data to meet operational needs"
+    ],
+    "a": 2,
+    "exp": "Correct because it prioritises pause and ensure a lawful basis and appropriate."
+  },
+  {
+    "theme": "Problem solving",
+    "q": "An employee notices that a colleague systematically bypasses security procedures to work faster. What is the most appropriate action?",
+    "opts": [
+      "Confront the colleague informally without escalation",
+      "Ignore the behaviour if results are satisfactory",
+      "Adopt the same practices to remain efficient",
+      "Report the issue through appropriate internal channels"
+    ],
+    "a": 3,
+    "exp": "Correct because it prioritises report the issue through appropriate internal channels."
+  },
+  {
+    "theme": "Safety",
+    "q": "An employee receives an urgent email appearing to come from internal IT, requesting immediate password reset. The sender address closely resembles the official domain. What is the most appropriate action?",
+    "opts": [
+      "Delete the email without further action",
+      "Reply to the sender to verify their identity",
+      "Reset the password immediately to avoid account suspension",
+      "Report the email via official security channels before taking any action"
+    ],
+    "a": 3,
+    "exp": "Correct because it prioritises report the email via official security channels before."
+  },
+  {
+    "theme": "Safety",
+    "q": "An employee uses personal messaging apps to exchange work-related information containing personal data. What is the most significant risk?",
+    "opts": [
+      "Uncontrolled processing and potential data breaches",
+      "Loss of productivity",
+      "Reduced transparency of communications",
+      "Increased messaging costs"
+    ],
+    "a": 0,
+    "exp": "Correct because it prioritises uncontrolled processing and potential data breaches."
+  },
+  {
+    "theme": "Safety",
+    "q": "An employee wants to use a free online AI tool to summarise internal documents containing personal data. What is the primary concern?",
+    "opts": [
+      "Lack of user training",
+      "Loss of intellectual property rights",
+      "Uncontrolled data disclosure to third parties",
+      "Quality of the summaries"
+    ],
+    "a": 2,
+    "exp": "Correct because it prioritises uncontrolled data disclosure to third parties."
+  },
+  {
+    "theme": "Safety",
+    "q": "An internal audit reveals that access rights to sensitive systems have not been reviewed for several years. What is the main risk?",
+    "opts": [
+      "Excessive administrative workload",
+      "Reduced system performance",
+      "Lower system availability",
+      "Accumulation of unnecessary privileges increasing security and compliance risks"
+    ],
+    "a": 3,
+    "exp": "Correct because it prioritises accumulation of unnecessary privileges increasing security and compliance."
+  },
+  {
+    "theme": "Safety",
+    "q": "An internal digital system logs user activity but access to logs is not restricted. What is the primary risk?",
+    "opts": [
+      "Lower data accuracy",
+      "Excessive storage consumption",
+      "Reduced system performance",
+      "Misuse of monitoring data and breach of confidentiality"
+    ],
+    "a": 3,
+    "exp": "Correct because it prioritises misuse of monitoring data and breach of confidentiality."
+  },
+  {
+    "theme": "Safety",
+    "q": "An IT incident results in accidental exposure of personal data to an unauthorised third party. What is the most appropriate initial action?",
+    "opts": [
+      "Wait to assess reputational impact before acting",
+      "Inform only senior management",
+      "Assess the risk and notify the competent data protection authority if required",
+      "Immediately delete the data and take no further steps"
+    ],
+    "a": 2,
+    "exp": "Correct because it prioritises assess the risk and notify the competent data."
+  },
+  {
+    "theme": "Problem solving",
+    "q": "An IT team disables certain security controls to maintain service continuity during peak demand without documenting the decision. What is the key governance issue?",
+    "opts": [
+      "Lack of traceability and accountability for risk decisions",
+      "Reduced system scalability",
+      "Higher infrastructure costs",
+      "Lower user satisfaction"
+    ],
+    "a": 0,
+    "exp": "Correct because it prioritises lack of traceability and accountability for risk decisions."
+  },
+  {
+    "theme": "Information & data literacy",
+    "q": "An online article supports your conclusion but lacks clear sourcing. Best practice?",
+    "opts": [
+      "Cite it cautiously and seek original sources",
+      "Ignore all online sources",
+      "Rewrite it in your own words",
+      "Use it because it confirms your view"
+    ],
+    "a": 0,
+    "exp": "Original sourcing is required for reliability."
+  },
+  {
+    "theme": "Safety",
+    "q": "App shows 'offline'. Best check?",
+    "opts": [
+      "Disable antivirus",
+      "Share password",
+      "Check network connection and airplane mode",
+      "Uninstall everything"
+    ],
+    "a": 2,
+    "exp": "Connectivity settings first."
+  },
+  {
+    "theme": "Communication & collaboration",
+    "q": "Calendar shows wrong meeting times. Likely cause?",
+    "opts": [
+      "Time zone settings",
+      "Account suspension",
+      "Server failure",
+      "Virus"
+    ],
+    "a": 0,
+    "exp": "Time zone settings often cause conflicts."
+  },
+  {
+    "theme": "Communication & collaboration",
+    "q": "Collaborate on a table. Best tool choice?",
+    "opts": [
+      "SMS",
+      "Screenshots",
+      "Shared spreadsheet/document with permissions",
+      "Public blog"
+    ],
+    "a": 2,
+    "exp": "Use collaborative tools with access control."
+  },
+  {
+    "theme": "Communication & collaboration",
+    "q": "Colleague didnât receive your email. First check?",
+    "opts": [
+      "Check sent folder, address, spam/bounce",
+      "Ignore",
+      "Resend to all",
+      "Delete account"
+    ],
+    "a": 0,
+    "exp": "Verify addressing and delivery status."
+  },
+  {
+    "theme": "Communication & collaboration",
+    "q": "Convert a document to PDF. Best approach?",
+    "opts": [
+      "Change extension only",
+      "Upload to unknown converter",
+      "Use built-in export/print-to-PDF tool",
+      "Screenshot pages"
+    ],
+    "a": 2,
+    "exp": "Use trusted tools; extension change isnât conversion."
+  },
+  {
+    "theme": "Safety",
+    "q": "Device time is wrong and MFA fails. Best fix?",
+    "opts": [
+      "Share codes",
+      "Disable MFA",
+      "Ignore",
+      "Enable automatic time sync"
+    ],
+    "a": 3,
+    "exp": "Correct time sync is required."
+  },
+  {
+    "theme": "Problem solving",
+    "q": "Files do not sync across devices. Likely cause?",
+    "opts": [
+      "Keyboard error",
+      "Storage limits",
+      "File corruption",
+      "Sync paused or account issue"
+    ],
+    "a": 3,
+    "exp": "Sync settings often cause issues."
+  },
+  {
+    "theme": "Communication & collaboration",
+    "q": "For meetings, best practice for notes is:",
+    "opts": [
+      "No notes",
+      "Email to personal accounts",
+      "Post publicly",
+      "Store notes in approved access-controlled space"
+    ],
+    "a": 3,
+    "exp": "Notes can be sensitive."
+  },
+  {
+    "theme": "Communication & collaboration",
+    "q": "For sensitive meetings, the safest practice is:",
+    "opts": [
+      "Share notes only via approved access-controlled storage",
+      "Record by default",
+      "Post summary publicly",
+      "Email attachments to personal accounts"
+    ],
+    "a": 0,
+    "exp": "Use controlled storage and limit sharing."
+  },
+  {
+    "theme": "Safety",
+    "q": "If a colleague asks you to bypass a security step 'just once', you should:",
+    "opts": [
+      "Refuse and follow procedure",
+      "Disable MFA",
+      "Comply",
+      "Share your password"
+    ],
+    "a": 0,
+    "exp": "Security steps exist for a reason."
+  },
+  {
+    "theme": "Communication & collaboration",
+    "q": "If a conversation becomes complex, best practice is to:",
+    "opts": [
+      "Avoid documentation",
+      "Summarise decisions and actions in one place",
+      "Start new random threads",
+      "Delete messages"
+    ],
+    "a": 1,
+    "exp": "Summaries reduce ambiguity."
+  },
+  {
+    "theme": "Safety",
+    "q": "If a device is lost, remote wipe is useful because:",
+    "opts": [
+      "It increases storage",
+      "It fixes passwords",
+      "It speeds up Wi‑Fi",
+      "It can remove data from the device"
+    ],
+    "a": 3,
+    "exp": "Remote wipe helps protect data."
+  },
+  {
+    "theme": "Communication & collaboration",
+    "q": "If an email attachment is unexpected, you should:",
+    "opts": [
+      "Forward internally",
+      "Open it",
+      "Reply asking",
+      "Report via official channel"
+    ],
+    "a": 3,
+    "exp": "Report unexpected attachments."
+  },
+  {
+    "theme": "Safety",
+    "q": "If malware is suspected, the first action is to:",
+    "opts": [
+      "Install unknown software",
+      "Delete random files",
+      "Ignore it",
+      "Disconnect and report"
+    ],
+    "a": 3,
+    "exp": "Contain and report immediately."
+  },
+  {
+    "theme": "Safety",
+    "q": "If printing fails, what is a logical first check?",
+    "opts": [
+      "Replace printer",
+      "Reinstall OS",
+      "Check connection/status/queue",
+      "Contact supplier"
+    ],
+    "a": 2,
+    "exp": "Check basics before escalation."
+  },
+  {
+    "theme": "Safety",
+    "q": "If public WiâFi must be used, you should:",
+    "opts": [
+      "Send credentials",
+      "Share hotspot",
+      "Use VPN/HTTPS",
+      "Disable firewall"
+    ],
+    "a": 2,
+    "exp": "Use encrypted connections."
+  },
+  {
+    "theme": "Problem solving",
+    "q": "If troubleshooting fails, best escalation method is to:",
+    "opts": [
+      "Complain informally",
+      "Provide clear description and steps tried",
+      "Disable protections",
+      "Ask colleagues to bypass rules"
+    ],
+    "a": 1,
+    "exp": "Clear escalation speeds resolution."
+  },
+  {
+    "theme": "Safety",
+    "q": "If you must share a confidential file externally, best approach is:",
+    "opts": [
+      "Send via personal email",
+      "Encrypted channel + correct recipient verification",
+      "Post in chat group",
+      "Public link"
+    ],
+    "a": 1,
+    "exp": "Secure channel + recipient checks."
+  },
+  {
+    "theme": "Safety",
+    "q": "If you must share a folder, safest permission is:",
+    "opts": [
+      "Edit for everyone",
+      "Anonymous edit",
+      "Public access",
+      "View for most; edit only for contributors"
+    ],
+    "a": 3,
+    "exp": "Apply least privilege."
+  },
+  {
+    "theme": "Safety",
+    "q": "If you must share a large file, best practice is to:",
+    "opts": [
+      "Post on social media",
+      "Use approved file transfer/share tool",
+      "Compress with unknown tools",
+      "Email multiple attachments"
+    ],
+    "a": 1,
+    "exp": "Use approved transfer tools."
+  },
+  {
+    "theme": "Communication & collaboration",
+    "q": "If you need feedback on a draft, best practice is to:",
+    "opts": [
+      "Send multiple versions",
+      "Share one link and control permissions",
+      "Post publicly",
+      "Email screenshots"
+    ],
+    "a": 1,
+    "exp": "Single link avoids version confusion."
+  },
+  {
+    "theme": "Communication & collaboration",
+    "q": "If you need to transfer ownership of a document, you should:",
+    "opts": [
+      "Change owner in the tool (if allowed) and verify permissions",
+      "Send a copy",
+      "Post publicly",
+      "Delete file"
+    ],
+    "a": 0,
+    "exp": "Proper ownership preserves control."
+  },
+  {
+    "theme": "Problem solving",
+    "q": "If you receive unclear instructions, you should:",
+    "opts": [
+      "Ask for clarification",
+      "Guess",
+      "Ignore",
+      "Proceed without informing"
+    ],
+    "a": 0,
+    "exp": "Clarify to avoid errors."
+  },
+  {
+    "theme": "Safety",
+    "q": "If you share a screen in a call, safest habit is to:",
+    "opts": [
+      "Record publicly",
+      "Share a single window/tab when possible",
+      "Share entire desktop always",
+      "Disable security"
+    ],
+    "a": 1,
+    "exp": "Limit what is exposed."
+  },
+  {
+    "theme": "Digital content creation",
+    "q": "If you suspect ransomware activity, you should:",
+    "opts": [
+      "Disconnect from network and report",
+      "Delete antivirus",
+      "Pay ransom immediately",
+      "Keep working"
+    ],
+    "a": 0,
+    "exp": "Contain and escalate quickly."
+  },
+  {
+    "theme": "Safety",
+    "q": "If you suspect someone is tailgating into a secure office area, you should:",
+    "opts": [
+      "Share your badge",
+      "Ignore",
+      "Follow security procedure/report",
+      "Invite them in"
+    ],
+    "a": 2,
+    "exp": "Report per physical security policy."
+  },
+  {
+    "theme": "Safety",
+    "q": "If your phone shows repeated login prompts, you should:",
+    "opts": [
+      "Enter password repeatedly",
+      "Check for phishing and verify the legitimate app",
+      "Share password",
+      "Disable lockscreen"
+    ],
+    "a": 1,
+    "exp": "Repeated prompts can indicate phishing."
+  },
+  {
+    "theme": "Communication & collaboration",
+    "q": "In a group chat, you should avoid:",
+    "opts": [
+      "Summarising decisions",
+      "Sharing confidential data",
+      "Using threads",
+      "Clear questions"
+    ],
+    "a": 1,
+    "exp": "Avoid sensitive data in uncontrolled channels."
+  },
+  {
+    "theme": "Communication & collaboration",
+    "q": "In a shared document, the best way to propose changes without overwriting content is:",
+    "opts": [
+      "Delete the original",
+      "Use suggestions/track changes or comments",
+      "Post screenshots",
+      "Create many attachments"
+    ],
+    "a": 1,
+    "exp": "Suggestion mode enables review without overwriting."
+  },
+  {
+    "theme": "Safety",
+    "q": "In collaborative tools, using @mentions is best for:",
+    "opts": [
+      "Encrypting content",
+      "Deleting messages",
+      "Getting the right person's attention",
+      "Reducing storage"
+    ],
+    "a": 2,
+    "exp": "Mentions route actions appropriately."
+  },
+  {
+    "theme": "Safety",
+    "q": "Login repeatedly fails despite correct password. Best action?",
+    "opts": [
+      "Share credentials",
+      "Disable MFA",
+      "Keep retrying",
+      "Check account status and reset via official process"
+    ],
+    "a": 3,
+    "exp": "Account issues require proper reset."
+  },
+  {
+    "theme": "Information & data literacy",
+    "q": "Metadata should be reviewed before sharing because it may:",
+    "opts": [
+      "Reveal sensitive information",
+      "Change layout",
+      "Slow access",
+      "Delete content"
+    ],
+    "a": 0,
+    "exp": "Metadata can contain hidden details."
+  },
+  {
+    "theme": "Safety",
+    "q": "Phone storage is full. Best approach?",
+    "opts": [
+      "Share passwords",
+      "Ignore",
+      "Delete unnecessary files/apps and move data to approved storage",
+      "Disable lock screen"
+    ],
+    "a": 2,
+    "exp": "Free space safely; use approved storage."
+  },
+  {
+    "theme": "Safety",
+    "q": "System performance suddenly drops. Reasonable check?",
+    "opts": [
+      "Keyboard layout",
+      "Wallpaper",
+      "Background processes",
+      "Monitor brightness"
+    ],
+    "a": 2,
+    "exp": "Processes affect performance."
+  },
+  {
+    "theme": "Problem solving",
+    "q": "System runs slowly. What is reasonable to check?",
+    "opts": [
+      "Open more apps",
+      "Available storage and running processes",
+      "Change wallpaper",
+      "Ignore"
+    ],
+    "a": 1,
+    "exp": "Storage/process load affects performance."
+  },
+  {
+    "theme": "Communication & collaboration",
+    "q": "Using a single shared document is better than attachments because:",
+    "opts": [
+      "It is slower",
+      "It removes permissions",
+      "It avoids version confusion",
+      "It prevents comments"
+    ],
+    "a": 2,
+    "exp": "Single source avoids version sprawl."
+  },
+  {
+    "theme": "Problem solving",
+    "q": "Using CC excessively in emails can:",
+    "opts": [
+      "Improve transparency",
+      "Reduce errors",
+      "Speed decisions",
+      "Increase data exposure"
+    ],
+    "a": 3,
+    "exp": "Over-sharing increases risk."
+  },
+  {
+    "theme": "Problem solving",
+    "q": "Video call audio doesnât work. First check?",
+    "opts": [
+      "Ignore",
+      "Buy headset",
+      "Delete browser",
+      "Check mute and correct input device"
+    ],
+    "a": 3,
+    "exp": "Audio device selection/mute are common."
+  },
+  {
+    "theme": "Problem solving",
+    "q": "What does 'secure disposal' of data mean?",
+    "opts": [
+      "Keep forever",
+      "Delete according to policy and ensure it cannot be recovered easily",
+      "Rename files",
+      "Share publicly"
+    ],
+    "a": 1,
+    "exp": "Dispose securely per policy."
+  },
+  {
+    "theme": "Safety",
+    "q": "What does encryption at rest protect?",
+    "opts": [
+      "Passwords only",
+      "Stored data",
+      "Wi‑Fi traffic",
+      "Data during calls"
+    ],
+    "a": 1,
+    "exp": "Protects data stored on disk."
+  },
+  {
+    "theme": "Safety",
+    "q": "What indicates a spoofed website?",
+    "opts": [
+      "Clear logo",
+      "Fast loading",
+      "Professional design",
+      "Odd domain spelling"
+    ],
+    "a": 3,
+    "exp": "Check domain carefully."
+  },
+  {
+    "theme": "Communication & collaboration",
+    "q": "What is a benefit of version history?",
+    "opts": [
+      "Tracks changes",
+      "Hides authors",
+      "Removes backups",
+      "Deletes history"
+    ],
+    "a": 0,
+    "exp": "Version history supports traceability and recovery."
+  },
+  {
+    "theme": "Problem solving",
+    "q": "What is a key reason to avoid installing browser extensions without approval?",
+    "opts": [
+      "They can access data and introduce risk",
+      "They slow typing",
+      "They change colors",
+      "They update too often"
+    ],
+    "a": 0,
+    "exp": "Extensions can access data."
+  },
+  {
+    "theme": "Information & data literacy",
+    "q": "What is a key risk of copying data from informal online sources?",
+    "opts": [
+      "Better visuals",
+      "Faster work",
+      "Inaccurate or biased information",
+      "Higher compatibility"
+    ],
+    "a": 2,
+    "exp": "Informal sources may lack verification."
+  },
+  {
+    "theme": "Safety",
+    "q": "What is a risk of forwarding emails unnecessarily?",
+    "opts": [
+      "Improves speed",
+      "Reduces inbox size",
+      "Spreads confidential info beyond need-to-know",
+      "Increases encryption"
+    ],
+    "a": 2,
+    "exp": "Forwarding can leak data."
+  },
+  {
+    "theme": "Problem solving",
+    "q": "What is leastâprivilege access?",
+    "opts": [
+      "Shared accounts",
+      "Permanent access",
+      "Admin rights for all",
+      "Minimum necessary access"
+    ],
+    "a": 3,
+    "exp": "Limit access to whatâs needed."
+  },
+  {
+    "theme": "Digital content creation",
+    "q": "What is the main benefit of using structured data formats?",
+    "opts": [
+      "Higher costs",
+      "Reduced access",
+      "Easier processing and analysis",
+      "Better aesthetics"
+    ],
+    "a": 2,
+    "exp": "Structured data supports analysis."
+  },
+  {
+    "theme": "Problem solving",
+    "q": "What is the main purpose of data validation rules?",
+    "opts": [
+      "Improve appearance",
+      "Reduce storage",
+      "Increase speed",
+      "Prevent incorrect data entry"
+    ],
+    "a": 3,
+    "exp": "Validation prevents errors at entry."
+  },
+  {
+    "theme": "Safety",
+    "q": "What is the main purpose of multi-factor authentication (MFA)?",
+    "opts": [
+      "Improve account security",
+      "Avoid updates",
+      "Reduce storage use",
+      "Increase speed"
+    ],
+    "a": 0,
+    "exp": "Adds a second verification factor."
+  },
+  {
+    "theme": "Communication & collaboration",
+    "q": "What is the purpose of comments in shared documents?",
+    "opts": [
+      "Lock files",
+      "Reduce versions",
+      "Provide feedback without editing",
+      "Delete content"
+    ],
+    "a": 2,
+    "exp": "Comments support collaboration."
+  },
+  {
+    "theme": "Digital content creation",
+    "q": "What is the safest default when sharing a document internally?",
+    "opts": [
+      "Anyone can edit",
+      "View-only for intended users",
+      "Public link",
+      "Anonymous access"
+    ],
+    "a": 1,
+    "exp": "Start restrictive and grant access as needed."
+  },
+  {
+    "theme": "Safety",
+    "q": "What is the safest way to handle unknown USB drives?",
+    "opts": [
+      "Use immediately",
+      "Scan at home",
+      "Avoid and follow policy",
+      "Give to colleagues"
+    ],
+    "a": 2,
+    "exp": "Unknown media may carry malware."
+  },
+  {
+    "theme": "Safety",
+    "q": "What is the safest way to store recovery codes for MFA?",
+    "opts": [
+      "Plain text email",
+      "Secure password manager or protected storage",
+      "Public note",
+      "Chat to yourself"
+    ],
+    "a": 1,
+    "exp": "Protect recovery codes like passwords."
+  },
+  {
+    "theme": "Communication & collaboration",
+    "q": "Whatâs the best reason to avoid shared accounts?",
+    "opts": [
+      "They improve collaboration",
+      "They are slower",
+      "They reduce accountability and increase risk",
+      "They save money"
+    ],
+    "a": 2,
+    "exp": "Shared accounts weaken accountability."
+  },
+  {
+    "theme": "Communication & collaboration",
+    "q": "When collaborating across time zones, best practice is to:",
+    "opts": [
+      "Avoid documentation",
+      "Use written summaries and clear deadlines",
+      "Delete messages",
+      "Only use calls"
+    ],
+    "a": 1,
+    "exp": "Written clarity helps async work."
+  },
+  {
+    "theme": "Communication & collaboration",
+    "q": "When collaborating on a shared file, best practice is to:",
+    "opts": [
+      "Edit simultaneously without notice",
+      "Disable history",
+      "Duplicate files",
+      "Communicate major changes"
+    ],
+    "a": 3,
+    "exp": "Communication avoids conflicts."
+  },
+  {
+    "theme": "Safety",
+    "q": "When creating content for colleagues, clarity is improved by:",
+    "opts": [
+      "Using long paragraphs",
+      "Structuring content logically",
+      "Avoiding headings",
+      "Using technical jargon"
+    ],
+    "a": 1,
+    "exp": "Clear structure improves comprehension."
+  },
+  {
+    "theme": "Safety",
+    "q": "When handling personal data, best default is:",
+    "opts": [
+      "Collect all fields",
+      "Share widely",
+      "Store on USB",
+      "Collect only necessary fields and protect access"
+    ],
+    "a": 3,
+    "exp": "Minimise data and control access."
+  },
+  {
+    "theme": "Information & data literacy",
+    "q": "When reusing internal content, best practice is to:",
+    "opts": [
+      "Verify accuracy and context",
+      "Copy without notice",
+      "Share externally",
+      "Assume it is current"
+    ],
+    "a": 0,
+    "exp": "Content must remain accurate and relevant."
+  },
+  {
+    "theme": "Safety",
+    "q": "When searching for official EU statistics, the best source is:",
+    "opts": [
+      "Discussion forums",
+      "Social networks",
+      "Blogs",
+      "Eurostat"
+    ],
+    "a": 3,
+    "exp": "Eurostat is the official EU statistics authority."
+  },
+  {
+    "theme": "Safety",
+    "q": "When sending attachments, best practice is to:",
+    "opts": [
+      "Verify recipients and whether attachment is necessary",
+      "Send without checking",
+      "Always compress",
+      "Always encrypt with shared password"
+    ],
+    "a": 0,
+    "exp": "Minimise disclosure and verify recipients."
+  },
+  {
+    "theme": "Communication & collaboration",
+    "q": "When sending sensitive information, you should:",
+    "opts": [
+      "CC all teams",
+      "Send to personal email",
+      "Use any channel",
+      "Use approved secure channel and verify recipients"
+    ],
+    "a": 3,
+    "exp": "Use secure channels and recipient checks."
+  },
+  {
+    "theme": "Digital content creation",
+    "q": "When sharing a document externally, you should:",
+    "opts": [
+      "Use 'anyone with link can edit'",
+      "Share credentials",
+      "Use named access or time-limited link when possible",
+      "Post link publicly"
+    ],
+    "a": 2,
+    "exp": "Restrict external access."
+  },
+  {
+    "theme": "Safety",
+    "q": "When using a shared calendar, you should:",
+    "opts": [
+      "Verify invitees and meeting details",
+      "Hide all titles",
+      "Invite external addresses by default",
+      "Share passwords"
+    ],
+    "a": 0,
+    "exp": "Verify participants and details."
+  },
+  {
+    "theme": "Information & data literacy",
+    "q": "When using statistics from an unknown website, the best approach is to:",
+    "opts": [
+      "Ignore all data",
+      "Use them directly",
+      "Verify the original source",
+      "Share immediately"
+    ],
+    "a": 2,
+    "exp": "Verification ensures reliability."
+  },
+  {
+    "theme": "Safety",
+    "q": "Which action best protects against ransomware?",
+    "opts": [
+      "Disabling antivirus",
+      "No backups",
+      "Regular tested backups",
+      "Sharing passwords"
+    ],
+    "a": 2,
+    "exp": "Backups enable recovery."
+  },
+  {
+    "theme": "Digital content creation",
+    "q": "Which action best respects copyright?",
+    "opts": [
+      "Copying content freely",
+      "Editing without attribution",
+      "Checking licence and crediting the author",
+      "Assuming public access means free use"
+    ],
+    "a": 2,
+    "exp": "Licensing conditions must be respected."
+  },
+  {
+    "theme": "Safety",
+    "q": "Which action best supports confidentiality during video calls?",
+    "opts": [
+      "Check participants and avoid sharing sensitive windows",
+      "Share screen by default",
+      "Record publicly",
+      "Disable waiting room"
+    ],
+    "a": 0,
+    "exp": "Limit exposure in calls."
+  },
+  {
+    "theme": "Digital content creation",
+    "q": "Which action improves accessibility of digital documents?",
+    "opts": [
+      "Using small fonts",
+      "Adding headings and alt text",
+      "Using images only",
+      "Removing structure"
+    ],
+    "a": 1,
+    "exp": "Accessibility features support inclusiveness."
+  },
+  {
+    "theme": "Information & data literacy",
+    "q": "Which action improves data quality in a spreadsheet?",
+    "opts": [
+      "Using bright colours",
+      "Adding more columns",
+      "Removing duplicate entries",
+      "Increasing file size"
+    ],
+    "a": 2,
+    "exp": "Removing duplicates improves accuracy."
+  },
+  {
+    "theme": "Information & data literacy",
+    "q": "Which action improves traceability of data?",
+    "opts": [
+      "Removing references",
+      "Renaming files randomly",
+      "Documenting sources",
+      "Sharing publicly"
+    ],
+    "a": 2,
+    "exp": "Source documentation enables traceability."
+  },
+  {
+    "theme": "Safety",
+    "q": "Which behaviour increases phishing risk?",
+    "opts": [
+      "Using MFA",
+      "Checking sender domain",
+      "Reporting suspicious emails",
+      "Clicking links under urgency"
+    ],
+    "a": 3,
+    "exp": "Urgency is a common phishing tactic."
+  },
+  {
+    "theme": "Information & data literacy",
+    "q": "Which factor most affects the reliability of a dataset?",
+    "opts": [
+      "Colour coding",
+      "Format type",
+      "Source credibility",
+      "File size"
+    ],
+    "a": 2,
+    "exp": "Credible sources improve trustworthiness."
+  },
+  {
+    "theme": "Digital content creation",
+    "q": "Which format is best for a final official document?",
+    "opts": [
+      "Chat message",
+      "Editable spreadsheet",
+      "PDF",
+      "Draft text"
+    ],
+    "a": 2,
+    "exp": "PDF preserves layout and integrity."
+  },
+  {
+    "theme": "Information & data literacy",
+    "q": "Which indicator suggests possible misinformation?",
+    "opts": [
+      "Clear authorship",
+      "Neutral language",
+      "Official logos",
+      "Lack of sources"
+    ],
+    "a": 3,
+    "exp": "Missing sources reduce credibility."
+  },
+  {
+    "theme": "Safety",
+    "q": "Which is a good practice to reduce data leakage?",
+    "opts": [
+      "Store everything in personal apps",
+      "Share credentials",
+      "Avoid unnecessary CC and verify recipients",
+      "Use public links"
+    ],
+    "a": 2,
+    "exp": "Reduce exposure through careful sharing."
+  },
+  {
+    "theme": "Safety",
+    "q": "Which is best to protect against account takeover?",
+    "opts": [
+      "Public Wi‑Fi",
+      "MFA + unique passwords",
+      "Same password reuse",
+      "Disabling updates"
+    ],
+    "a": 1,
+    "exp": "Combine MFA and unique passwords."
+  },
+  {
+    "theme": "Safety",
+    "q": "Which is safest for storing sensitive files on a laptop?",
+    "opts": [
+      "Plain folder",
+      "Email drafts",
+      "Encrypted storage per policy",
+      "USB stick without encryption"
+    ],
+    "a": 2,
+    "exp": "Use encryption per policy."
+  },
+  {
+    "theme": "Safety",
+    "q": "Which is the safest behaviour when leaving a desk?",
+    "opts": [
+      "Leave device unlocked",
+      "Turn off updates",
+      "Lock screen",
+      "Close laptop lid only"
+    ],
+    "a": 2,
+    "exp": "Locking prevents unauthorised access."
+  },
+  {
+    "theme": "Safety",
+    "q": "Which password practice is most secure?",
+    "opts": [
+      "Long unique passwords",
+      "Writing passwords down",
+      "Short but memorable",
+      "Same password everywhere"
+    ],
+    "a": 0,
+    "exp": "Use long, unique passwords."
+  },
+  {
+    "theme": "Information & data literacy",
+    "q": "Which practice best ensures the credibility of online information?",
+    "opts": [
+      "Relying on search engine ranking",
+      "Using social media comments",
+      "Cross-checking with independent reliable sources",
+      "Trusting the most shared source"
+    ],
+    "a": 2,
+    "exp": "Cross-checking reduces the risk of misinformation."
+  },
+  {
+    "theme": "Safety",
+    "q": "Which practice best strengthens cybersecurity when staff work remotely?",
+    "opts": [
+      "Disabling automatic security updates to avoid disruptions",
+      "Sharing login credentials within the team",
+      "Using multi-factor authentication and applying regular security patches",
+      "Allowing unrestricted use of personal devices"
+    ],
+    "a": 2,
+    "exp": "Correct because it prioritises using multi-factor authentication and applying regular security patches."
+  },
+  {
+    "theme": "Information & data literacy",
+    "q": "Which practice helps avoid confirmation bias?",
+    "opts": [
+      "Considering alternative sources",
+      "Ignoring contradictory data",
+      "Using one source only",
+      "Selecting data that supports assumptions"
+    ],
+    "a": 0,
+    "exp": "Multiple perspectives reduce bias."
+  },
+  {
+    "theme": "Digital content creation",
+    "q": "Which practice improves data integrity?",
+    "opts": [
+      "Controlled access",
+      "Anonymous changes",
+      "Public editing",
+      "Manual overwriting"
+    ],
+    "a": 0,
+    "exp": "Controlled access prevents tampering."
+  },
+  {
+    "theme": "Safety",
+    "q": "Which practice reduces risk when using removable media?",
+    "opts": [
+      "Share with others",
+      "Use found drives",
+      "No scanning",
+      "Use encrypted, organisation-managed media where permitted"
+    ],
+    "a": 3,
+    "exp": "Managed encrypted media reduces risk."
+  },
+  {
+    "theme": "Problem solving",
+    "q": "Why are periodic access reviews important?",
+    "opts": [
+      "They remove unnecessary access",
+      "They increase spam",
+      "They delete files",
+      "They slow work"
+    ],
+    "a": 0,
+    "exp": "Remove stale access."
+  },
+  {
+    "theme": "Problem solving",
+    "q": "Why is clear file naming important?",
+    "opts": [
+      "For aesthetics",
+      "To avoid confusion and overwriting",
+      "To increase storage",
+      "To limit access"
+    ],
+    "a": 1,
+    "exp": "Clear naming reduces errors."
+  },
+  {
+    "theme": "Communication & collaboration",
+    "q": "Why is data versioning important?",
+    "opts": [
+      "To track changes over time",
+      "To remove history",
+      "To increase file size",
+      "To reduce permissions"
+    ],
+    "a": 0,
+    "exp": "Versioning supports traceability."
+  },
+  {
+    "theme": "Information & data literacy",
+    "q": "Why is it important to check the publication date of online content?",
+    "opts": [
+      "To reduce file size",
+      "To improve formatting",
+      "To verify authorship",
+      "To ensure information is current"
+    ],
+    "a": 3,
+    "exp": "Outdated information may no longer be accurate."
+  },
+  {
+    "theme": "Safety",
+    "q": "Why is it risky to reuse passwords?",
+    "opts": [
+      "It reduces phishing",
+      "It improves memory",
+      "A breach on one site compromises others",
+      "It saves time"
+    ],
+    "a": 2,
+    "exp": "Reuse amplifies impact."
+  },
+  {
+    "theme": "Digital content creation",
+    "q": "Why is it useful to set document permissions to 'comment' rather than 'edit'?",
+    "opts": [
+      "Prevents accidental changes",
+      "More fun",
+      "Increases cost",
+      "Removes history"
+    ],
+    "a": 0,
+    "exp": "Comment mode reduces accidental edits."
+  },
+  {
+    "theme": "Problem solving",
+    "q": "Why is using an unpatched device risky?",
+    "opts": [
+      "Known vulnerabilities remain exploitable",
+      "It uses more storage",
+      "It runs too fast",
+      "UI changes"
+    ],
+    "a": 0,
+    "exp": "Unpatched vulnerabilities are exploited."
+  },
+  {
+    "theme": "Safety",
+    "q": "Why should devices auto-lock when unattended?",
+    "opts": [
+      "Enable updates",
+      "Prevent unauthorised access",
+      "Improve speed",
+      "Save battery"
+    ],
+    "a": 1,
+    "exp": "Reduces risk of physical access."
+  },
+  {
+    "theme": "Problem solving",
+    "q": "Why should filters be used carefully in data analysis?",
+    "opts": [
+      "They may exclude relevant data",
+      "They lock files",
+      "They increase speed",
+      "They improve colours"
+    ],
+    "a": 0,
+    "exp": "Improper filters can distort results."
+  },
+  {
+    "theme": "Safety",
+    "q": "Why should logs not be deleted after an incident?",
+    "opts": [
+      "They waste space",
+      "They support investigation",
+      "They confuse users",
+      "They slow systems"
+    ],
+    "a": 1,
+    "exp": "Logs are needed for investigation."
+  },
+  {
+    "theme": "Safety",
+    "q": "Why should personal data be minimised during collection?",
+    "opts": [
+      "To improve graphics",
+      "To comply with data protection principles",
+      "To simplify analysis",
+      "To reduce storage"
+    ],
+    "a": 1,
+    "exp": "Data minimisation is a core data protection principle."
+  },
+  {
+    "theme": "Problem solving",
+    "q": "Why should raw data be preserved?",
+    "opts": [
+      "To reduce backups",
+      "To save time",
+      "For verification and reanalysis",
+      "For decoration"
+    ],
+    "a": 2,
+    "exp": "Raw data enables auditability."
+  },
+  {
+    "theme": "Digital content creation",
+    "q": "Why should templates be used for official documents?",
+    "opts": [
+      "To reduce collaboration",
+      "To increase file size",
+      "To ensure consistency",
+      "To restrict creativity"
+    ],
+    "a": 2,
+    "exp": "Templates ensure standardisation."
+  },
+  {
+    "theme": "Digital content creation",
+    "q": "Why should tracked changes be used in collaborative documents?",
+    "opts": [
+      "To allow transparent review",
+      "To hide edits",
+      "To reduce file size",
+      "To lock content"
+    ],
+    "a": 0,
+    "exp": "Tracked changes ensure accountability."
+  },
+  {
+    "theme": "Safety",
+    "q": "Why should updates be installed promptly?",
+    "opts": [
+      "They slow systems",
+      "They reduce vulnerabilities",
+      "They add features",
+      "They change UI"
+    ],
+    "a": 1,
+    "exp": "Patches fix known security flaws."
+  },
+  {
+    "theme": "Safety",
+    "q": "Why should work files not be stored in personal cloud accounts?",
+    "opts": [
+      "Slower access",
+      "Cost issues",
+      "Policy and security risks",
+      "Storage limits"
+    ],
+    "a": 2,
+    "exp": "Use approved services only."
+  },
+  {
+    "theme": "Safety",
+    "q": "Why should you avoid excessive formatting?",
+    "opts": [
+      "It enhances security",
+      "It improves clarity",
+      "It reduces readability",
+      "It increases storage"
+    ],
+    "a": 2,
+    "exp": "Over-formatting distracts from content."
+  },
+  {
+    "theme": "Digital content creation",
+    "q": "Why should you avoid posting work screenshots on social media?",
+    "opts": [
+      "They reduce Wi‑Fi",
+      "They use battery",
+      "They may disclose sensitive information",
+      "They are blurry"
+    ],
+    "a": 2,
+    "exp": "Screenshots can leak data."
+  },
+  {
+    "theme": "Safety",
+    "q": "Why should you avoid sharing meeting links publicly?",
+    "opts": [
+      "They expire",
+      "They slow Wi‑Fi",
+      "They increase storage",
+      "It can allow unauthorised access"
+    ],
+    "a": 3,
+    "exp": "Public links can be abused."
+  },
+  {
+    "theme": "Digital content creation",
+    "q": "Why use comments/suggestions mode in documents?",
+    "opts": [
+      "To remove history",
+      "To review without overwriting the original",
+      "To hide changes",
+      "To disable collaboration"
+    ],
+    "a": 1,
+    "exp": "Supports review without direct edits."
+  },
+  {
+    "theme": "Communication & collaboration",
+    "q": "Why use official collaboration tools?",
+    "opts": [
+      "They replace email",
+      "They meet security requirements",
+      "They are trendy",
+      "They are faster"
+    ],
+    "a": 1,
+    "exp": "Approved tools are policy-compliant."
+  },
+  {
+    "theme": "Digital content creation",
+    "q": "You accidentally emailed a document to the wrong external recipient. First step?",
+    "opts": [
+      "Delete your sent email",
+      "Wait to see if they reply",
+      "Send more information to clarify",
+      "Report immediately and follow incident procedure"
+    ],
+    "a": 3,
+    "exp": "Prompt reporting enables containment."
+  },
+  {
+    "theme": "Safety",
+    "q": "You are asked to disable the firewall to test a tool. Best response?",
+    "opts": [
+      "Disable it temporarily",
+      "Share the tool externally",
+      "Refuse and ask IT for a safe test method",
+      "Ignore the request"
+    ],
+    "a": 2,
+    "exp": "Security controls should be changed only via approved process."
+  },
+  {
+    "theme": "Digital content creation",
+    "q": "You are asked to present digital data to senior management. Best preparation?",
+    "opts": [
+      "Focus on key insights and reliability",
+      "Avoid explanations",
+      "Use raw data only",
+      "Add technical detail"
+    ],
+    "a": 0,
+    "exp": "Audience-appropriate presentation is essential."
+  },
+  {
+    "theme": "Information & data literacy",
+    "q": "You are asked to reuse old digital content for a new context. Best action?",
+    "opts": [
+      "Delete the content",
+      "Verify relevance and accuracy",
+      "Assume it is still valid",
+      "Reuse without changes"
+    ],
+    "a": 1,
+    "exp": "Content must fit its context."
+  },
+  {
+    "theme": "Problem solving",
+    "q": "You are asked to summarise complex digital findings. Best approach?",
+    "opts": [
+      "Highlight key points and limitations",
+      "Remove nuance",
+      "Copy raw data",
+      "Use technical language only"
+    ],
+    "a": 0,
+    "exp": "Balanced summaries support decisions."
+  },
+  {
+    "theme": "Safety",
+    "q": "You are leaving your desk for a short break. Best practice?",
+    "opts": [
+      "Leave the screen as-is",
+      "Lock your screen",
+      "Ask a colleague to watch it",
+      "Disable auto-lock"
+    ],
+    "a": 1,
+    "exp": "Locking the device prevents unauthorised access."
+  },
+  {
+    "theme": "Problem solving",
+    "q": "You are unsure if a digital process is mandatory or optional. Best action?",
+    "opts": [
+      "Bypass it",
+      "Check guidance or ask",
+      "Assume optional",
+      "Ignore the task"
+    ],
+    "a": 1,
+    "exp": "Clarifying rules prevents errors."
+  },
+  {
+    "theme": "Information & data literacy",
+    "q": "You are unsure whether a digital source is authoritative. Best action?",
+    "opts": [
+      "Use it cautiously without checks",
+      "Verify origin and mandate",
+      "Assume authority",
+      "Ignore it"
+    ],
+    "a": 1,
+    "exp": "Authority must be verified."
+  },
+  {
+    "theme": "Communication & collaboration",
+    "q": "You are unsure whether a file is the latest version. Best practice?",
+    "opts": [
+      "Edit it anyway",
+      "Delete older files",
+      "Rename it as final",
+      "Check version history or confirm with owner"
+    ],
+    "a": 3,
+    "exp": "Version control avoids errors."
+  },
+  {
+    "theme": "Problem solving",
+    "q": "You are unsure whether automated results are complete. Best approach?",
+    "opts": [
+      "Assume completeness",
+      "Manually review key elements",
+      "Disable automation",
+      "Ask others to decide"
+    ],
+    "a": 1,
+    "exp": "Human review complements automation."
+  },
+  {
+    "theme": "Problem solving",
+    "q": "You are unsure whether data can be shared externally. Best default?",
+    "opts": [
+      "Share to be helpful",
+      "Assume sharing is allowed",
+      "Check rules or ask before sharing",
+      "Remove identifiers and share"
+    ],
+    "a": 2,
+    "exp": "External sharing requires confirmation."
+  },
+  {
+    "theme": "Digital content creation",
+    "q": "You are unsure whether information is confidential. Best default behaviour?",
+    "opts": [
+      "Assume it is public",
+      "Share internally",
+      "Publish it externally",
+      "Treat it as confidential until confirmed"
+    ],
+    "a": 3,
+    "exp": "When in doubt, apply confidentiality."
+  },
+  {
+    "theme": "Problem solving",
+    "q": "You are unsure whether to automate a task. Best consideration?",
+    "opts": [
+      "Always automate",
+      "Ask colleagues to decide",
+      "Assess risks, benefits and oversight needs",
+      "Avoid automation"
+    ],
+    "a": 2,
+    "exp": "Automation requires balanced assessment."
+  },
+  {
+    "theme": "Safety",
+    "q": "You cannot access a shared drive. First step?",
+    "opts": [
+      "Share credentials",
+      "Disable security",
+      "Request access via proper process",
+      "Create new drive"
+    ],
+    "a": 2,
+    "exp": "Access must be granted correctly."
+  },
+  {
+    "theme": "Safety",
+    "q": "You cannot install an update due to permissions. Best action?",
+    "opts": [
+      "Contact IT/admin per policy",
+      "Share credentials",
+      "Bypass security",
+      "Download random installer"
+    ],
+    "a": 0,
+    "exp": "Permissions issues need approved support."
+  },
+  {
+    "theme": "Problem solving",
+    "q": "You canât attach a file because itâs too large. Best option?",
+    "opts": [
+      "Send publicly",
+      "Split randomly",
+      "Give up",
+      "Use approved file sharing link instead"
+    ],
+    "a": 3,
+    "exp": "Use approved sharing methods."
+  },
+  {
+    "theme": "Digital content creation",
+    "q": "You canât find a saved file. Best first step?",
+    "opts": [
+      "Assume deleted",
+      "Use search and check recent files/location",
+      "Create new file",
+      "Format disk"
+    ],
+    "a": 1,
+    "exp": "Search/recent/location checks first."
+  },
+  {
+    "theme": "Problem solving",
+    "q": "You detect minor errors in a dataset shortly before a deadline. Best response?",
+    "opts": [
+      "Delete the dataset",
+      "Correct and document the changes",
+      "Miss the deadline",
+      "Ignore them"
+    ],
+    "a": 1,
+    "exp": "Corrections should be made transparently."
+  },
+  {
+    "theme": "Digital content creation",
+    "q": "You detect that digital information is being used beyond its intended scope. Best response?",
+    "opts": [
+      "Restrict access immediately",
+      "Allow it",
+      "Delete content",
+      "Clarify limitations"
+    ],
+    "a": 3,
+    "exp": "Scope clarification prevents misuse."
+  },
+  {
+    "theme": "Communication & collaboration",
+    "q": "You disagree with a colleagueâs digital approach but it complies with rules. Best response?",
+    "opts": [
+      "Respect it and discuss improvements constructively",
+      "Ignore collaboration",
+      "Override it",
+      "Report it"
+    ],
+    "a": 0,
+    "exp": "Professional discussion improves outcomes."
+  },
+  {
+    "theme": "Information & data literacy",
+    "q": "You find that a digital dashboard is misunderstood by users. Best improvement?",
+    "opts": [
+      "Provide guidance or explanations",
+      "Restrict access",
+      "Add more indicators",
+      "Remove the dashboard"
+    ],
+    "a": 0,
+    "exp": "Guidance improves correct use."
+  },
+  {
+    "theme": "Problem solving",
+    "q": "You identify a recurring digital error affecting multiple users. Best response?",
+    "opts": [
+      "Ignore it",
+      "Fix it locally only",
+      "Ask users to adapt",
+      "Document and report the issue"
+    ],
+    "a": 3,
+    "exp": "Systemic issues require reporting."
+  },
+  {
+    "theme": "Problem solving",
+    "q": "You identify uncertainty in digital results. Best practice?",
+    "opts": [
+      "Acknowledge and explain uncertainty",
+      "Remove results",
+      "Hide uncertainty",
+      "Ignore it"
+    ],
+    "a": 0,
+    "exp": "Transparency supports trust."
+  },
+  {
+    "theme": "Communication & collaboration",
+    "q": "You notice a colleague sharing screenshots containing internal information. Best response?",
+    "opts": [
+      "Share them too",
+      "Publicly criticise",
+      "Ignore it",
+      "Raise awareness and suggest safer alternatives"
+    ],
+    "a": 3,
+    "exp": "Awareness reduces future risk."
+  },
+  {
+    "theme": "Information & data literacy",
+    "q": "You notice inconsistent data definitions across documents. Best response?",
+    "opts": [
+      "Delete documents",
+      "Ignore inconsistency",
+      "Standardise and document definitions",
+      "Let users decide"
+    ],
+    "a": 2,
+    "exp": "Consistency supports accuracy."
+  },
+  {
+    "theme": "Information & data literacy",
+    "q": "You notice outdated content in a shared knowledge base. Best response?",
+    "opts": [
+      "Create a private copy",
+      "Update or flag it as outdated",
+      "Delete the page",
+      "Ignore it"
+    ],
+    "a": 1,
+    "exp": "Shared resources must remain accurate."
+  },
+  {
+    "theme": "Problem solving",
+    "q": "You notice repeated minor digital errors that are not reported. Best response?",
+    "opts": [
+      "Escalate aggressively",
+      "Document and raise awareness",
+      "Fix silently",
+      "Ignore them"
+    ],
+    "a": 1,
+    "exp": "Awareness helps prevention."
+  },
+  {
+    "theme": "Information & data literacy",
+    "q": "You notice that a shared dataset is being used outside its original context. Best action?",
+    "opts": [
+      "Delete the dataset",
+      "Clarify context and limitations with users",
+      "Ignore it",
+      "Restrict all access"
+    ],
+    "a": 1,
+    "exp": "Context clarification prevents misinterpretation."
+  },
+  {
+    "theme": "Information & data literacy",
+    "q": "You notice that digital information is being interpreted as definitive when it is provisional. Best action?",
+    "opts": [
+      "Delete the information",
+      "Restrict all access",
+      "Ignore it",
+      "Clarify provisional status"
+    ],
+    "a": 3,
+    "exp": "Status clarification prevents misuse."
+  },
+  {
+    "theme": "Safety",
+    "q": "You receive a call requesting a one-time MFA code. What should you do?",
+    "opts": [
+      "Refuse and report as social engineering",
+      "Ask them to call back later",
+      "Send code by email",
+      "Provide the code"
+    ],
+    "a": 0,
+    "exp": "Never share MFA codes."
+  },
+  {
+    "theme": "Safety",
+    "q": "You receive an SMS with a login code you did not request. Best action?",
+    "opts": [
+      "Report/secure account; change password and check sessions",
+      "Ignore forever",
+      "Send code to friends",
+      "Turn off phone"
+    ],
+    "a": 0,
+    "exp": "Unexpected codes may indicate attack."
+  },
+  {
+    "theme": "Safety",
+    "q": "You receive an unexpected email asking you to reset your password via a link. What is the safest action?",
+    "opts": [
+      "Click the link quickly",
+      "Verify via official channel and report",
+      "Ignore it completely",
+      "Forward to colleagues"
+    ],
+    "a": 1,
+    "exp": "Verify unexpected credential requests and report."
+  },
+  {
+    "theme": "Communication & collaboration",
+    "q": "You receive contradictory instructions through email and chat. Best action?",
+    "opts": [
+      "Follow the latest message",
+      "Choose the simplest task",
+      "Ignore both",
+      "Clarify with the sender"
+    ],
+    "a": 3,
+    "exp": "Clarification avoids errors."
+  },
+  {
+    "theme": "Digital content creation",
+    "q": "You receive feedback that your digital output is unclear. Best action?",
+    "opts": [
+      "Defend your work",
+      "Ignore feedback",
+      "Withdraw output",
+      "Clarify and improve presentation"
+    ],
+    "a": 3,
+    "exp": "Feedback improves quality."
+  },
+  {
+    "theme": "Problem solving",
+    "q": "You receive incomplete data close to a deadline. Best response?",
+    "opts": [
+      "Proceed and note limitations",
+      "Delay without explanation",
+      "Ignore missing parts",
+      "Invent missing values"
+    ],
+    "a": 0,
+    "exp": "Transparency about limitations is essential."
+  },
+  {
+    "theme": "Information & data literacy",
+    "q": "You receive information from two credible sources that slightly contradict each other. Best action?",
+    "opts": [
+      "Ignore both sources",
+      "Choose the source you prefer",
+      "Average the two versions",
+      "Investigate further and clarify differences"
+    ],
+    "a": 3,
+    "exp": "Conflicting credible sources require further verification."
+  },
+  {
+    "theme": "Information & data literacy",
+    "q": "You suspect bias in how data was selected. Best next step?",
+    "opts": [
+      "Discard all data",
+      "Review selection criteria",
+      "Ignore it",
+      "Adjust conclusions silently"
+    ],
+    "a": 1,
+    "exp": "Bias must be examined explicitly."
+  },
+  {
+    "theme": "Safety",
+    "q": "You suspect youâre in the wrong channel. Best action?",
+    "opts": [
+      "Verify channel and audience before posting",
+      "Tag everyone",
+      "Share confidential data",
+      "Post anyway"
+    ],
+    "a": 0,
+    "exp": "Audience check prevents disclosure."
+  },
+  {
+    "theme": "Safety",
+    "q": "Your browser is slow on one site. First step?",
+    "opts": [
+      "Reinstall OS",
+      "Disable security",
+      "Clear cache for that site / try private window",
+      "Change monitor"
+    ],
+    "a": 2,
+    "exp": "Cache issues can affect a site."
+  },
+  {
+    "theme": "Information & data literacy",
+    "q": "Your browser warns about an invalid certificate. Best action?",
+    "opts": [
+      "Do not proceed; verify URL/certificate or contact IT",
+      "Disable warnings",
+      "Proceed anyway",
+      "Refresh repeatedly"
+    ],
+    "a": 0,
+    "exp": "Certificate warnings indicate risk."
+  },
+  {
+    "theme": "Safety",
+    "q": "Your device cannot connect to WiâFi. What should you check first?",
+    "opts": [
+      "Replace device",
+      "Check Wi‑Fi settings/airplane mode",
+      "Disable security",
+      "Report to media"
+    ],
+    "a": 1,
+    "exp": "Start with basic connectivity checks."
+  },
+  {
+    "theme": "Safety",
+    "q": "Your email is not syncing. What should you verify?",
+    "opts": [
+      "Buy new phone",
+      "Delete contacts",
+      "Password and connection",
+      "Ignore"
+    ],
+    "a": 2,
+    "exp": "Authentication/connectivity are common causes."
+  }
+]
