@@ -1,0 +1,41 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Editor directories
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Local environment
+.env
+.env.local
+
+# Backup files
+*.backup
+*.bak
+backup/
+
+# Temporary files
+temp/
+tmp/
+
+# Node modules
+node_modules/
+
+# Testing
+coverage/
