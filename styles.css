@@ -64,6 +64,16 @@ body {
     position: sticky;
     top: 0;
     z-index: 100;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.app-header.scroll-down {
+    transform: translateY(-100%);
+}
+
+.app-header.scroll-up {
+    transform: translateY(0);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
 }
 
 .app-header h1 {
@@ -977,5 +987,338 @@ body.dark-mode .modal-content {
     .results-card {
         box-shadow: none;
         border: 1px solid #ddd;
+    }
+}
+
+/* ============================================================================
+   DAILY PRACTICE TRACKER
+   ============================================================================ */
+
+.daily-practice-widget {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    border-radius: 16px;
+    padding: 25px;
+    margin: 30px 0;
+    color: white;
+    box-shadow: 0 8px 24px rgba(102, 126, 234, 0.3);
+}
+
+.daily-practice-widget h3 {
+    margin: 0 0 20px 0;
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+.daily-practice-timer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.practice-percent {
+    font-size: 1.5rem;
+    opacity: 0.9;
+}
+
+.daily-practice-bar {
+    height: 24px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 12px;
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+
+.daily-practice-progress {
+    height: 100%;
+    background: linear-gradient(90deg, #FFD700, #FFA500);
+    border-radius: 12px;
+    transition: width 0.5s ease;
+    box-shadow: 0 0 10px rgba(255, 215, 0, 0.5);
+}
+
+.practice-streak {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: 1.2rem;
+}
+
+.streak-fire {
+    font-size: 1.5rem;
+    animation: flicker 2s infinite;
+}
+
+@keyframes flicker {
+    0%, 100% { opacity: 1; transform: scale(1); }
+    50% { opacity: 0.8; transform: scale(1.1); }
+}
+
+/* ============================================================================
+   PRACTICE CALENDAR
+   ============================================================================ */
+
+.practice-calendar-widget {
+    background: var(--white);
+    border-radius: 12px;
+    padding: 25px;
+    margin: 30px 0;
+    box-shadow: var(--shadow);
+}
+
+.calendar-header h3 {
+    color: var(--epso-blue);
+    margin: 0 0 20px 0;
+    text-align: center;
+}
+
+.calendar-days {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 5px;
+    margin-bottom: 10px;
+}
+
+.calendar-day-name {
+    text-align: center;
+    font-weight: 600;
+    font-size: 0.85rem;
+    color: var(--dark-gray);
+    padding: 5px;
+}
+
+.calendar-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 5px;
+}
+
+.calendar-cell {
+    aspect-ratio: 1;
+    border: 2px solid var(--medium-gray);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background: var(--white);
+    transition: var(--transition);
+    font-size: 0.9rem;
+}
+
+.calendar-cell.empty {
+    border: none;
+    background: transparent;
+}
+
+.calendar-cell.today {
+    border-color: var(--epso-blue);
+    background: rgba(0, 51, 153, 0.1);
+    font-weight: bold;
+}
+
+.calendar-cell.completed {
+    background: linear-gradient(135deg, #28a745, #20c997);
+    border-color: #28a745;
+    color: white;
+}
+
+.calendar-cell.partial {
+    background: linear-gradient(135deg, #ffc107, #ff9800);
+    border-color: #ffc107;
+    color: white;
+}
+
+.calendar-day-number {
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+.calendar-checkmark {
+    position: absolute;
+    top: 2px;
+    right: 2px;
+    font-size: 0.8rem;
+}
+
+.calendar-minutes {
+    font-size: 0.65rem;
+    opacity: 0.9;
+    margin-top: 2px;
+}
+
+.calendar-cell:hover:not(.empty) {
+    transform: scale(1.1);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* ============================================================================
+   CELEBRATION OVERLAY
+   ============================================================================ */
+
+.celebration-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+    animation: fadeIn 0.3s ease;
+}
+
+.celebration-content {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    padding: 60px;
+    border-radius: 24px;
+    text-align: center;
+    color: white;
+    max-width: 500px;
+    animation: bounceIn 0.5s ease;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.4);
+}
+
+.celebration-icon {
+    font-size: 6rem;
+    animation: rotate 2s ease-in-out infinite;
+    margin-bottom: 20px;
+}
+
+.celebration-content h2 {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+}
+
+.celebration-content p {
+    font-size: 1.3rem;
+    margin-bottom: 30px;
+    opacity: 0.95;
+}
+
+.celebration-streak {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    padding: 20px;
+    margin: 30px 0;
+}
+
+.streak-number {
+    display: block;
+    font-size: 4rem;
+    font-weight: bold;
+    line-height: 1;
+}
+
+.streak-label {
+    display: block;
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+.celebration-content .btn-primary {
+    background: white;
+    color: var(--epso-blue);
+    padding: 15px 40px;
+    font-size: 1.1rem;
+}
+
+.celebration-content .btn-primary:hover {
+    transform: scale(1.05);
+}
+
+@keyframes bounceIn {
+    0% { transform: scale(0.3); opacity: 0; }
+    50% { transform: scale(1.05); }
+    70% { transform: scale(0.9); }
+    100% { transform: scale(1); opacity: 1; }
+}
+
+@keyframes rotate {
+    0%, 100% { transform: rotate(-10deg); }
+    50% { transform: rotate(10deg); }
+}
+
+/* Confetti animation */
+.confetti {
+    position: fixed;
+    width: 10px;
+    height: 10px;
+    background: #f0f;
+    top: -10px;
+    z-index: 10000;
+    animation: confetti-fall linear forwards;
+}
+
+@keyframes confetti-fall {
+    to {
+        transform: translateY(100vh) rotate(360deg);
+    }
+}
+
+/* ============================================================================
+   MOBILE RESPONSIVE - CALENDAR & PRACTICE TRACKER
+   ============================================================================ */
+
+@media (max-width: 768px) {
+    .daily-practice-widget {
+        padding: 20px;
+    }
+    
+    .daily-practice-timer {
+        font-size: 1.4rem;
+    }
+    
+    .practice-percent {
+        font-size: 1.2rem;
+    }
+    
+    .calendar-day-name {
+        font-size: 0.7rem;
+    }
+    
+    .calendar-day-number {
+        font-size: 0.8rem;
+    }
+    
+    .calendar-minutes {
+        font-size: 0.6rem;
+    }
+    
+    .celebration-content {
+        padding: 40px 30px;
+        margin: 20px;
+    }
+    
+    .celebration-icon {
+        font-size: 4rem;
+    }
+    
+    .celebration-content h2 {
+        font-size: 1.8rem;
+    }
+    
+    .celebration-content p {
+        font-size: 1.1rem;
+    }
+    
+    .streak-number {
+        font-size: 3rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .calendar-cell {
+        font-size: 0.75rem;
+    }
+    
+    .calendar-day-number {
+        font-size: 0.7rem;
     }
 }

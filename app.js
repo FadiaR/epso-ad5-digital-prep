@@ -21,8 +21,16 @@ let currentTest = {
 let userStats = {
     totalTests: 0,
     testHistory: [],
-    themePerformance: {}
+    themePerformance: {},
+    dailyPractice: {}, // { "2026-02-07": 3600 } - seconds practiced per day
+    practiceStreak: 0,
+    longestStreak: 0
 };
+
+// Daily practice tracking
+const DAILY_GOAL_SECONDS = 90 * 60; // 1 hour 30 minutes
+let dailySessionStart = null;
+let dailySessionInterval = null;
 
 // ============================================================================
 // INITIALIZATION
@@ -34,6 +42,8 @@ document.addEventListener('DOMContentLoaded', async () => {
     loadUserStats();
     updateWelcomeStats();
     setupKeyboardShortcuts();
+    setupStickyHeader();
+    startDailyPracticeTracking();
     showLoading(false);
 });
 
@@ -504,6 +514,13 @@ function updateWelcomeStats() {
         );
         document.getElementById('best-score').textContent = `${bestTest.correct}/${bestTest.total}`;
     }
+    
+    // Update streak display
+    const streakEl = document.getElementById('practice-streak-count');
+    if (streakEl) {
+        const streakText = userStats.practiceStreak === 1 ? 'day' : 'days';
+        streakEl.textContent = `${userStats.practiceStreak} ${streakText} streak`;
+    }
 }
 
 function showStatistics() {
@@ -768,3 +785,274 @@ function toggleShortcutsHint() {
 setTimeout(() => {
     document.getElementById('shortcuts-hint').style.display = 'none';
 }, 5000);
+
+// ============================================================================
+// DAILY PRACTICE TRACKING
+// ============================================================================
+
+function startDailyPracticeTracking() {
+    const today = getTodayDate();
+    
+    // Initialize today's practice if needed
+    if (!userStats.dailyPractice[today]) {
+        userStats.dailyPractice[today] = 0;
+    }
+    
+    // Start session timer
+    dailySessionStart = Date.now();
+    
+    // Update every second
+    dailySessionInterval = setInterval(() => {
+        updateDailyPracticeTime();
+    }, 1000);
+    
+    // Update display
+    updateDailyPracticeDisplay();
+    updateCalendar();
+}
+
+function updateDailyPracticeTime() {
+    if (!dailySessionStart) return;
+    
+    const today = getTodayDate();
+    const sessionTime = Math.floor((Date.now() - dailySessionStart) / 1000);
+    const previousTime = userStats.dailyPractice[today] || 0;
+    const totalToday = previousTime + sessionTime;
+    
+    // Update display (don't save yet, only on page unload)
+    updateDailyPracticeDisplay(totalToday);
+    
+    // Check if goal completed
+    if (totalToday >= DAILY_GOAL_SECONDS && previousTime < DAILY_GOAL_SECONDS) {
+        celebrateGoalCompletion();
+    }
+}
+
+function updateDailyPracticeDisplay(customTime = null) {
+    const today = getTodayDate();
+    const totalToday = customTime !== null ? customTime : (userStats.dailyPractice[today] || 0);
+    
+    const minutes = Math.floor(totalToday / 60);
+    const seconds = totalToday % 60;
+    const goalMinutes = Math.floor(DAILY_GOAL_SECONDS / 60);
+    
+    const percentage = Math.min((totalToday / DAILY_GOAL_SECONDS) * 100, 100);
+    
+    // Update timer display
+    const timerEl = document.getElementById('daily-practice-timer');
+    if (timerEl) {
+        timerEl.textContent = `${minutes}:${seconds.toString().padStart(2, '0')} / ${goalMinutes}min`;
+    }
+    
+    // Update progress bar
+    const progressEl = document.getElementById('daily-practice-progress');
+    if (progressEl) {
+        progressEl.style.width = `${percentage}%`;
+    }
+    
+    // Update percentage text
+    const percentEl = document.getElementById('daily-practice-percent');
+    if (percentEl) {
+        percentEl.textContent = `${Math.floor(percentage)}%`;
+    }
+}
+
+function saveDailyPracticeTime() {
+    if (!dailySessionStart) return;
+    
+    const today = getTodayDate();
+    const sessionTime = Math.floor((Date.now() - dailySessionStart) / 1000);
+    const previousTime = userStats.dailyPractice[today] || 0;
+    
+    userStats.dailyPractice[today] = previousTime + sessionTime;
+    
+    // Update streak
+    updateStreak();
+    
+    saveUserStats();
+    dailySessionStart = Date.now(); // Reset session start
+}
+
+function updateStreak() {
+    const dates = Object.keys(userStats.dailyPractice).sort().reverse();
+    let streak = 0;
+    let currentDate = new Date();
+    
+    for (let i = 0; i < dates.length; i++) {
+        const checkDate = dates[i];
+        const expectedDate = getTodayDate(new Date(currentDate - i * 86400000));
+        
+        if (checkDate === expectedDate && userStats.dailyPractice[checkDate] >= DAILY_GOAL_SECONDS) {
+            streak++;
+        } else {
+            break;
+        }
+    }
+    
+    userStats.practiceStreak = streak;
+    if (streak > userStats.longestStreak) {
+        userStats.longestStreak = streak;
+    }
+}
+
+function getTodayDate(date = new Date()) {
+    return date.toISOString().split('T')[0];
+}
+
+function celebrateGoalCompletion() {
+    // Create celebration overlay
+    const celebration = document.createElement('div');
+    celebration.className = 'celebration-overlay';
+    celebration.innerHTML = `
+        <div class="celebration-content">
+            <div class="celebration-icon">🎉</div>
+            <h2>Daily Goal Completed!</h2>
+            <p>You've practiced for 1h 30min today!</p>
+            <div class="celebration-streak">
+                <span class="streak-number">${userStats.practiceStreak + 1}</span>
+                <span class="streak-label">Day Streak 🔥</span>
+            </div>
+            <button onclick="closeCelebration()" class="btn-primary">Continue Practicing</button>
+        </div>
+    `;
+    
+    document.body.appendChild(celebration);
+    
+    // Trigger confetti animation
+    createConfetti();
+    
+    // Auto-close after 5 seconds
+    setTimeout(() => {
+        closeCelebration();
+    }, 5000);
+}
+
+function closeCelebration() {
+    const overlay = document.querySelector('.celebration-overlay');
+    if (overlay) {
+        overlay.remove();
+    }
+}
+
+function createConfetti() {
+    const colors = ['#003399', '#FFD700', '#28a745', '#dc3545', '#ffc107'];
+    
+    for (let i = 0; i < 50; i++) {
+        const confetti = document.createElement('div');
+        confetti.className = 'confetti';
+        confetti.style.left = Math.random() * 100 + '%';
+        confetti.style.backgroundColor = colors[Math.floor(Math.random() * colors.length)];
+        confetti.style.animationDelay = Math.random() * 3 + 's';
+        confetti.style.animationDuration = (Math.random() * 3 + 2) + 's';
+        
+        document.body.appendChild(confetti);
+        
+        setTimeout(() => confetti.remove(), 5000);
+    }
+}
+
+// ============================================================================
+// CALENDAR
+// ============================================================================
+
+function updateCalendar() {
+    const calendarEl = document.getElementById('practice-calendar');
+    if (!calendarEl) return;
+    
+    const today = new Date();
+    const currentMonth = today.getMonth();
+    const currentYear = today.getFullYear();
+    
+    // Get first day of month
+    const firstDay = new Date(currentYear, currentMonth, 1);
+    const lastDay = new Date(currentYear, currentMonth + 1, 0);
+    
+    let html = `
+        <div class="calendar-header">
+            <h3>${firstDay.toLocaleString('default', { month: 'long', year: 'numeric' })}</h3>
+        </div>
+        <div class="calendar-days">
+            <div class="calendar-day-name">Mon</div>
+            <div class="calendar-day-name">Tue</div>
+            <div class="calendar-day-name">Wed</div>
+            <div class="calendar-day-name">Thu</div>
+            <div class="calendar-day-name">Fri</div>
+            <div class="calendar-day-name">Sat</div>
+            <div class="calendar-day-name">Sun</div>
+        </div>
+        <div class="calendar-grid">
+    `;
+    
+    // Add empty cells for days before month starts
+    const startDay = firstDay.getDay() === 0 ? 6 : firstDay.getDay() - 1;
+    for (let i = 0; i < startDay; i++) {
+        html += '<div class="calendar-cell empty"></div>';
+    }
+    
+    // Add days of month
+    for (let day = 1; day <= lastDay.getDate(); day++) {
+        const date = new Date(currentYear, currentMonth, day);
+        const dateStr = getTodayDate(date);
+        const practiced = userStats.dailyPractice[dateStr] || 0;
+        const goalMet = practiced >= DAILY_GOAL_SECONDS;
+        const isToday = dateStr === getTodayDate();
+        
+        let className = 'calendar-cell';
+        if (isToday) className += ' today';
+        if (goalMet) className += ' completed';
+        else if (practiced > 0) className += ' partial';
+        
+        const minutes = Math.floor(practiced / 60);
+        
+        html += `
+            <div class="${className}" title="${dateStr}: ${minutes} minutes">
+                <div class="calendar-day-number">${day}</div>
+                ${goalMet ? '<div class="calendar-checkmark">✓</div>' : ''}
+                ${practiced > 0 && !goalMet ? `<div class="calendar-minutes">${minutes}m</div>` : ''}
+            </div>
+        `;
+    }
+    
+    html += '</div>';
+    calendarEl.innerHTML = html;
+}
+
+// ============================================================================
+// STICKY HEADER
+// ============================================================================
+
+function setupStickyHeader() {
+    let lastScroll = 0;
+    const header = document.querySelector('.app-header');
+    
+    window.addEventListener('scroll', () => {
+        const currentScroll = window.pageYOffset;
+        
+        if (currentScroll <= 0) {
+            header.classList.remove('scroll-up');
+            return;
+        }
+        
+        if (currentScroll > lastScroll && currentScroll > 100) {
+            // Scrolling down
+            header.classList.remove('scroll-up');
+            header.classList.add('scroll-down');
+        } else if (currentScroll < lastScroll) {
+            // Scrolling up
+            header.classList.remove('scroll-down');
+            header.classList.add('scroll-up');
+        }
+        
+        lastScroll = currentScroll;
+    });
+}
+
+// Save practice time before page unload
+window.addEventListener('beforeunload', () => {
+    saveDailyPracticeTime();
+});
+
+// Save practice time periodically (every 30 seconds)
+setInterval(() => {
+    saveDailyPracticeTime();
+}, 30000);

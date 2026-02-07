@@ -3142,5 +3142,365 @@
     ],
     "a": 2,
     "exp": "Authentication/connectivity are common causes."
+  },
+  {
+    "theme": "Information & data literacy",
+    "q": "Which practice best helps ensure that information used in a report can be verified later?",
+    "opts": [
+      "Using only internal documents",
+      "Saving the report as a PDF",
+      "Storing the report on a shared drive",
+      "Citing the sources of the information used"
+    ],
+    "a": 3,
+    "exp": "Source citation ensures traceability and later verification."
+  },
+  {
+    "theme": "Information & data literacy",
+    "q": "What is the main purpose of checking the publication date of online information?",
+    "opts": [
+      "To determine whether the content is free to use",
+      "To identify the author more easily",
+      "To confirm the visual quality of the website",
+      "To assess whether the information is still relevant and up to date"
+    ],
+    "a": 3,
+    "exp": "Timeliness is a key criterion for information relevance."
+  },
+  {
+    "theme": "Information & data literacy",
+    "q": "Which action best supports information accuracy when working with multiple data sources?",
+    "opts": [
+      "Ignoring minor discrepancies between sources",
+      "Using the largest dataset available",
+      "Comparing information across sources to identify inconsistencies",
+      "Selecting the source that aligns with expectations"
+    ],
+    "a": 2,
+    "exp": "Cross-checking sources helps detect errors and inconsistencies."
+  },
+  {
+    "theme": "Information & data literacy",
+    "q": "Why should assumptions be clearly distinguished from factual data in professional documents?",
+    "opts": [
+      "Because facts require approval before use",
+      "Because assumptions cannot be shared",
+      "Because assumptions are always incorrect",
+      "Because assumptions influence interpretation and decision-making"
+    ],
+    "a": 3,
+    "exp": "Separating assumptions from facts prevents misleading conclusions."
+  },
+  {
+    "theme": "Information & data literacy",
+    "q": "Which source is generally the most reliable for official policy information?",
+    "opts": [
+      "A personal blog",
+      "A social media post",
+      "An online discussion forum",
+      "An official institutional website"
+    ],
+    "a": 3,
+    "exp": "Official institutional sources provide authoritative information."
+  },
+  {
+    "theme": "Information & data literacy",
+    "q": "What is the main reason to avoid using outdated datasets in analysis?",
+    "opts": [
+      "They may lead to incorrect or misleading conclusions",
+      "They are less visually appealing",
+      "They reduce document length",
+      "They are harder to store"
+    ],
+    "a": 0,
+    "exp": "Outdated data can distort analysis and decisions."
+  },
+  {
+    "theme": "Information & data literacy",
+    "q": "When reusing information from another document, what should you do to respect good practice?",
+    "opts": [
+      "Check its relevance and cite the original source",
+      "Use it without modification",
+      "Rewrite it entirely to avoid reference",
+      "Store it separately for later use"
+    ],
+    "a": 0,
+    "exp": "Relevance checking and citation ensure responsible reuse."
+  },
+  {
+    "theme": "Information & data literacy",
+    "q": "What is the primary benefit of structuring information clearly in a document?",
+    "opts": [
+      "It improves readability and understanding",
+      "It reduces the need for sources",
+      "It increases file size",
+      "It limits access to the document"
+    ],
+    "a": 0,
+    "exp": "Clear structure supports comprehension and efficient use of information."
+  },
+  {
+    "theme": "Information & data literacy",
+    "q": "Which action best supports neutrality when presenting information?",
+    "opts": [
+      "Highlighting only favourable data",
+      "Presenting data without context",
+      "Using emotive language",
+      "Presenting information factually and objectively"
+    ],
+    "a": 3,
+    "exp": "Objective presentation supports neutrality and credibility."
+  },
+  {
+    "theme": "Information & data literacy",
+    "q": "Why is it important to understand the context in which data was collected?",
+    "opts": [
+      "To assess whether the data is appropriate for the intended use",
+      "To increase the amount of data available",
+      "To decide how visually attractive the data is",
+      "To determine whether the data can be shared freely"
+    ],
+    "a": 0,
+    "exp": "Collection context determines relevance and proper use."
+  },
+  {
+    "theme": "Communication & collaboration",
+    "q": "What is the main advantage of using shared online documents for team work?",
+    "opts": [
+      "They automatically guarantee data security",
+      "They allow real-time collaboration and version control",
+      "They replace the need for communication",
+      "They eliminate the need for coordination"
+    ],
+    "a": 1,
+    "exp": "Shared documents support collaborative editing and reduce version conflicts."
+  },
+  {
+    "theme": "Communication & collaboration",
+    "q": "When working with colleagues in different locations, which tool is most appropriate for real-time discussion?",
+    "opts": [
+      "A document archive",
+      "Instant messaging or video conferencing",
+      "A shared folder",
+      "Email"
+    ],
+    "a": 1,
+    "exp": "Real-time tools enable immediate interaction and clarification."
+  },
+  {
+    "theme": "Communication & collaboration",
+    "q": "What is good practice when sharing a document with external partners?",
+    "opts": [
+      "Avoid sharing documents digitally",
+      "Share the document without restrictions",
+      "Grant full editing rights by default",
+      "Limit access rights to what is necessary"
+    ],
+    "a": 3,
+    "exp": "Least-privilege access reduces the risk of misuse."
+  },
+  {
+    "theme": "Communication & collaboration",
+    "q": "Which practice best helps avoid confusion when multiple versions of a document exist?",
+    "opts": [
+      "Sending documents by email only",
+      "Storing files locally",
+      "Using a single shared version with clear version history",
+      "Saving copies with personal initials"
+    ],
+    "a": 2,
+    "exp": "A single shared version prevents parallel, conflicting copies."
+  },
+  {
+    "theme": "Communication & collaboration",
+    "q": "What should you do before adding someone to a professional group chat?",
+    "opts": [
+      "Add them immediately to speed up communication",
+      "Confirm that their role justifies participation",
+      "Share a summary instead of adding them",
+      "Wait for them to request access"
+    ],
+    "a": 1,
+    "exp": "Participation should be role-based and justified."
+  },
+  {
+    "theme": "Communication & collaboration",
+    "q": "Why is it important to choose the appropriate communication channel?",
+    "opts": [
+      "To avoid documenting decisions",
+      "To comply with technical constraints",
+      "To reduce the number of tools used",
+      "To ensure the message reaches the right audience effectively"
+    ],
+    "a": 3,
+    "exp": "Channel choice affects clarity, speed, and appropriateness."
+  },
+  {
+    "theme": "Communication & collaboration",
+    "q": "Which action best supports transparency in digital collaboration?",
+    "opts": [
+      "Sharing key decisions in accessible shared spaces",
+      "Using private messages whenever possible",
+      "Limiting access to senior staff only",
+      "Keeping discussions informal"
+    ],
+    "a": 0,
+    "exp": "Shared access to decisions supports transparency."
+  },
+  {
+    "theme": "Communication & collaboration",
+    "q": "What is a common risk of overusing email for internal collaboration?",
+    "opts": [
+      "Information overload and missed messages",
+      "Better confidentiality",
+      "Improved traceability",
+      "Automatic archiving"
+    ],
+    "a": 0,
+    "exp": "Excessive email can reduce clarity and effectiveness."
+  },
+  {
+    "theme": "Communication & collaboration",
+    "q": "When sharing meeting notes digitally, what is best practice?",
+    "opts": [
+      "Avoid recording decisions",
+      "Distribute them in a shared, accessible location",
+      "Store them on personal devices",
+      "Share them only with the meeting organiser"
+    ],
+    "a": 1,
+    "exp": "Shared access ensures common understanding."
+  },
+  {
+    "theme": "Communication & collaboration",
+    "q": "Why should professional communication avoid informal abbreviations or emojis?",
+    "opts": [
+      "They increase storage requirements",
+      "They may reduce clarity or be misinterpreted",
+      "They slow down communication",
+      "They are technically incompatible"
+    ],
+    "a": 1,
+    "exp": "Professional clarity requires avoiding ambiguity."
+  },
+  {
+    "theme": "Digital content creation",
+    "q": "What is the main purpose of using clear headings in a professional document?",
+    "opts": [
+      "To improve readability and structure",
+      "To restrict access to sections",
+      "To replace a table of contents",
+      "To reduce file size"
+    ],
+    "a": 0,
+    "exp": "Clear headings help readers understand and navigate content efficiently."
+  },
+  {
+    "theme": "Digital content creation",
+    "q": "Which practice best supports accessibility in digital documents?",
+    "opts": [
+      "Using complex layouts",
+      "Embedding text in images",
+      "Relying only on colour to convey meaning",
+      "Adding descriptive alternative text to images"
+    ],
+    "a": 3,
+    "exp": "Alternative text allows assistive technologies to convey information."
+  },
+  {
+    "theme": "Digital content creation",
+    "q": "Why should templates be used for recurring professional documents?",
+    "opts": [
+      "They increase document length",
+      "They prevent collaboration",
+      "They ensure consistency and efficiency",
+      "They eliminate the need for review"
+    ],
+    "a": 2,
+    "exp": "Templates promote consistent structure and save time."
+  },
+  {
+    "theme": "Digital content creation",
+    "q": "What is good practice when reusing digital content created by others?",
+    "opts": [
+      "Avoid reuse altogether",
+      "Respect usage rights and acknowledge the source",
+      "Modify it freely without reference",
+      "Assume internal use requires no checks"
+    ],
+    "a": 1,
+    "exp": "Respecting rights and attribution is part of responsible content creation."
+  },
+  {
+    "theme": "Digital content creation",
+    "q": "Which action best improves clarity in a presentation slide?",
+    "opts": [
+      "Using multiple fonts on the same slide",
+      "Limiting each slide to key points",
+      "Adding as much text as possible",
+      "Including full paragraphs"
+    ],
+    "a": 1,
+    "exp": "Concise slides improve comprehension and focus."
+  },
+  {
+    "theme": "Safety",
+    "q": "What is the primary purpose of using strong, unique passwords for professional accounts?",
+    "opts": [
+      "To make accounts easier to remember",
+      "To speed up login processes",
+      "To reduce the risk of unauthorised access",
+      "To comply with software requirements"
+    ],
+    "a": 2,
+    "exp": "Strong, unique passwords reduce the risk of account compromise."
+  },
+  {
+    "theme": "Safety",
+    "q": "What should you do if you receive an unexpected email asking for confidential information?",
+    "opts": [
+      "Delete it immediately without further action",
+      "Forward it to colleagues for awareness",
+      "Report it through official security channels before acting",
+      "Reply to ask for clarification"
+    ],
+    "a": 2,
+    "exp": "Suspicious requests should be reported via official channels."
+  },
+  {
+    "theme": "Safety",
+    "q": "Why is it important to lock your computer when leaving your workstation?",
+    "opts": [
+      "To avoid losing unsaved work",
+      "To allow system updates to run",
+      "To save energy",
+      "To prevent unauthorised access to information"
+    ],
+    "a": 3,
+    "exp": "Locking the workstation protects information from unauthorised access."
+  },
+  {
+    "theme": "Safety",
+    "q": "What is the safest practice when using public Wi-Fi for professional tasks?",
+    "opts": [
+      "Avoid accessing sensitive information",
+      "Share the connection with colleagues",
+      "Access all systems as usual",
+      "Disable security settings temporarily"
+    ],
+    "a": 0,
+    "exp": "Public networks increase risk and should not be used for sensitive access."
+  },
+  {
+    "theme": "Safety",
+    "q": "Why should software updates be installed promptly on work devices?",
+    "opts": [
+      "They often include security fixes for known vulnerabilities",
+      "They always improve performance",
+      "They change the user interface",
+      "They reduce storage needs"
+    ],
+    "a": 0,
+    "exp": "Updates often address security vulnerabilities."
   }
 ]
